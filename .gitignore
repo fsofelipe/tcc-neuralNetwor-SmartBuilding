@@ -1,0 +1,17 @@
+Data/All0/
+Data/All1/
+Data/Randoms/
+Data/Canguçu/
+Data/SistemaEspecialista/
+v1/
+v2/
+v3/
+v4/
+v5/
+v6/
+v7/
+v8/ePlus/*
+!v8/ePlus/SmOffPSZ.idf
+!v8/ePlus/SmOffPSZ_sim_rede.idf
+!v8/ePlus/variables.cfg
+!v8/ePlus/variables_sim_rede.cfg
