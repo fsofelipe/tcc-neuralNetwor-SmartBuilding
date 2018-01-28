@@ -35,7 +35,7 @@ end
 
 % Loop for simulation time steps.
 simulate = 1;
-tcp = tcpip('localhost', 52145);
+tcp = tcpip('localhost', 52151);
 fopen(tcp);
 
 while (simulate)

@@ -4,3 +4,46 @@
                    R2015a (8.5.0.197613) 64-bit (glnxa64)
                              February 12, 2015
 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Error using icinterface/fopen (line 83)
+Unsuccessful open: Connection refused
+
+Error in simulateAndExit (line 39)
+fopen(tcp);
+} 
+>> Exception in thread "AWT-EventQueue-0" java.lang.RuntimeException: com.mathworks.services.settings.SettingValidationException: IMsgIDException for "matlab.workingfolder.LastFolderPath": Internal Error: No write permission on directory /home/felipe/.matlab/R2015a/temp0x3560x6a60. Details: fl:filesystem:AccessDenied.
+	at com.mathworks.mlwidgets.prefs.InitialWorkingFolder.setStringSettingValue(InitialWorkingFolder.java:52)
+	at com.mathworks.mlwidgets.prefs.InitialWorkingFolder.access$000(InitialWorkingFolder.java:15)
+	at com.mathworks.mlwidgets.prefs.InitialWorkingFolder$1.actionPerformed(InitialWorkingFolder.java:34)
+	at com.mathworks.jmi.MatlabPath$DeferredActionEvent.dispatch(MatlabPath.java:151)
+	at com.mathworks.util.QueueEvent$QueueTarget.processEvent(QueueEvent.java:89)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.mathworks.services.settings.SettingValidationException: IMsgIDException for "matlab.workingfolder.LastFolderPath": Internal Error: No write permission on directory /home/felipe/.matlab/R2015a/temp0x3560x6a60. Details: fl:filesystem:AccessDenied.
+	at com.mathworks.services.settings.Setting.nativeSet(Native Method)
+	at com.mathworks.services.settings.Setting.set(Setting.java:913)
+	at com.mathworks.services.settings.Setting.set(Setting.java:769)
+	at com.mathworks.services.settings.Setting.set(Setting.java:709)
+	at com.mathworks.mlwidgets.prefs.InitialWorkingFolder.setStringSettingValue(InitialWorkingFolder.java:50)
+	... 24 more

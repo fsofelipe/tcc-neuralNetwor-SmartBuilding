@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.28 13:24,IDD_Version 8.7.0
+Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.28 14:14,IDD_Version 8.7.0
    ** Severe  ** IP: Potential errors in IDF processing -- see .audit file for details.
    ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
    **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
