@@ -1,7 +1,6 @@
 Data/All0/
 Data/All1/
 Data/Randoms/
-Data/Canguçu/
 Data/SistemaEspecialista/
 v1/
 v2/
@@ -15,3 +14,7 @@ v8/ePlus/*
 !v8/ePlus/SmOffPSZ_sim_rede.idf
 !v8/ePlus/variables.cfg
 !v8/ePlus/variables_sim_rede.cfg
+
+Simulador/ePlus/*
+!Simulador/ePlus/SmOffPSZ.idf
+!Simulador/ePlus/variables.cfg
