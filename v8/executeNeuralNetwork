@@ -1,0 +1,9 @@
+#!/bin/bash
+# int-or-string.sh
+COUNTER=1
+for ((n=0;n<1;n++)); do
+  echo "CONTADOR: $COUNTER"
+
+  python ./Python/neuralNetwork.py $((COUNTER+1))
+  COUNTER=$((COUNTER+1))
+done

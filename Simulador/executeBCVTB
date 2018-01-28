@@ -1,0 +1,8 @@
+#!/bin/bash
+myvar="$PWD"
+
+
+for ((n=0;n<16;n++)); do
+    python ./Python/waiter.py &&
+    java -jar /usr/local/bcvtb/bin/BCVTB.jar -console "$myvar"/system.xml -versose
+ done

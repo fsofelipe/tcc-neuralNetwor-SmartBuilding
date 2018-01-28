@@ -1,0 +1,192 @@
+  Processing Data Dictionary -- Complete
+  Maximum number of Alpha Args=        4500
+  Maximum number of Numeric Args=       21040
+  Number of Object Definitions=         781
+  Number of Section Definitions=           2
+  Total Number of Alpha Fields=       18878
+  Total Number of Numeric Fields=       40216
+  Total Number of Fields=       59094
+  Processing Input Data File -- Start
+  Echo of input lines is off. May be activated by setting the environmental variable DISPLAYINPUTINAUDIT=YES
+  Processing Input Data File -- Complete
+  Maximum number of Alpha IDF Args=          31
+  Maximum number of Numeric IDF Args=          48
+  Number of IDF "Lines"=        1538
+  Number of Defaulted Fields=         288
+  Number of Fields with Defaults=        4012
+  Number of Autosized Fields=          60
+  Number of Autosizable Fields =          72
+  Number of Autocalculated Fields=          22
+  Number of Autocalculatable Fields =         734
+ Potential errors in IDF processing:
+ Potential "semi-colon" misplacement=0, at about line number=[16450], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTASERVICOLESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16458], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASERVICOSUL
+ Potential "semi-colon" misplacement=0, at about line number=[16468], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELACASALNORTE
+ Potential "semi-colon" misplacement=0, at about line number=[16476], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTACASALOESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16484], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELACASALOESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16493], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELABANHEIROLESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16501], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTABANHEIROOESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16510], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAJARDIMNORTE
+ Potential "semi-colon" misplacement=0, at about line number=[16518], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAJARDIMLESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16527], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASOLTEIRONORTE
+ Potential "semi-colon" misplacement=0, at about line number=[16535], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTASOLTEIROSUL
+ Potential "semi-colon" misplacement=0, at about line number=[16543], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASOLTEIROSUL
+ Potential "semi-colon" misplacement=0, at about line number=[16552], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTASALANORTE
+ Potential "semi-colon" misplacement=0, at about line number=[16560], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASALANORTE
+ Potential "semi-colon" misplacement=0, at about line number=[16568], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTASALALESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16576], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASALASUL
+ Potential "semi-colon" misplacement=0, at about line number=[16584], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASALAOESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16593], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTACOZINHALESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16601], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELACOZINHASUL
+ Potential "semi-colon" misplacement=0, at about line number=[16610], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAMEZANINONORTE
+ Potential "semi-colon" misplacement=0, at about line number=[16618], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAMEZANINOSUL
+ Potential "semi-colon" misplacement=0, at about line number=[16626], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAMEZANINOOESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16635], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASEGUNDOSUL
+ Getting object=VERSION
+ Getting object=HEATBALANCEALGORITHM
+ Getting object=TIMESTEP
+ Getting object=CONVERGENCELIMITS
+ Getting object=OUTPUT:DIAGNOSTICS
+ Getting object=SIMULATIONCONTROL
+ Getting object=BRANCH
+ Getting object=CURVE:BIQUADRATIC
+ Getting object=CURVE:QUADRATIC
+ Getting object=AIRFLOWNETWORK:MULTIZONE:WINDPRESSURECOEFFICIENTARRAY
+ Getting object=AIRFLOWNETWORK:MULTIZONE:WINDPRESSURECOEFFICIENTVALUES
+ Getting object=BRANCHLIST
+ Getting object=DESIGNSPECIFICATION:OUTDOORAIR
+ Getting object=DESIGNSPECIFICATION:ZONEAIRDISTRIBUTION
+ Getting object=SIZING:PARAMETERS
+ Getting object=ZONE
+ Getting object=SIZING:ZONE
+ Getting object=SIZING:SYSTEM
+ Getting object=OUTPUT:TABLE:SUMMARYREPORTS
+ Getting object=OUTPUT:VARIABLE
+ Getting object=SCHEDULE:COMPACT
+  Processing Schedule Input -- Start
+ Getting object=SCHEDULETYPELIMITS
+ Getting object=SCHEDULE:DAY:HOURLY
+ Getting object=SCHEDULE:DAY:INTERVAL
+ Getting object=SCHEDULE:DAY:LIST
+ Getting object=SCHEDULE:WEEK:DAILY
+ Getting object=SCHEDULE:YEAR
+  Processing Schedule Input -- Complete
+ Getting object=SIZINGPERIOD:DESIGNDAY
+ Getting object=RUNPERIOD
+ Getting object=RUNPERIODCONTROL:DAYLIGHTSAVINGTIME
+ Getting object=SITE:LOCATION
+ Getting object=SITE:GROUNDTEMPERATURE:BUILDINGSURFACE
+ Getting object=SITE:GROUNDTEMPERATURE:SHALLOW
+ Getting object=SITE:GROUNDTEMPERATURE:DEEP
+ Getting object=SITE:GROUNDREFLECTANCE
+ Getting object=SITE:GROUNDREFLECTANCE:SNOWMODIFIER
+ Getting object=BUILDING
+ Getting object=SURFACECONVECTIONALGORITHM:INSIDE
+ Getting object=SURFACECONVECTIONALGORITHM:OUTSIDE
+ Getting object=MATERIAL
+ Getting object=MATERIAL:NOMASS
+ Getting object=MATERIAL:INFRAREDTRANSPARENT
+ Getting object=WINDOWMATERIAL:GLAZING
+ Getting object=WINDOWMATERIAL:GAS
+ Getting object=WINDOWMATERIAL:BLIND
+ Getting object=WINDOWPROPERTY:FRAMEANDDIVIDER
+ Getting object=CONSTRUCTION
+ Getting object=GLOBALGEOMETRYRULES
+ Getting object=SHADING:BUILDING:DETAILED
+ Getting object=BUILDINGSURFACE:DETAILED
+ Getting object=WINDOWPROPERTY:SHADINGCONTROL
+ Getting object=FENESTRATIONSURFACE:DETAILED
+ Getting object=INTERNALMASS
+ Getting object=SHADINGPROPERTY:REFLECTANCE
+ Getting object=PEOPLE
+ Getting object=LIGHTS
+ Getting object=ELECTRICEQUIPMENT
+ Getting object=SHADOWCALCULATION
+ Getting object=DAYLIGHTING:REFERENCEPOINT
+ Getting object=DAYLIGHTING:CONTROLS
+ Getting object=SURFACEPROPERTY:CONVECTIONCOEFFICIENTS
+ Getting object=AIRFLOWNETWORK:SIMULATIONCONTROL
+ Getting object=AIRFLOWNETWORK:MULTIZONE:ZONE
+ Getting object=AIRFLOWNETWORK:MULTIZONE:EXTERNALNODE
+ Getting object=AIRFLOWNETWORK:MULTIZONE:SURFACE
+ Getting object=AIRFLOWNETWORK:MULTIZONE:COMPONENT:DETAILEDOPENING
+ Getting object=AIRFLOWNETWORK:MULTIZONE:COMPONENT:HORIZONTALOPENING
+ Getting object=AIRFLOWNETWORK:MULTIZONE:REFERENCECRACKCONDITIONS
+ Getting object=AIRFLOWNETWORK:MULTIZONE:SURFACE:CRACK
+ Getting object=EXTERNALINTERFACE:ACTUATOR
+ Getting object=OUTDOORAIR:NODELIST
+ Getting object=OUTDOORAIR:NODE
+ Getting object=ZONECONTROL:THERMOSTAT
+ Getting object=THERMOSTATSETPOINT:DUALSETPOINT
+ Getting object=ZONECAPACITANCEMULTIPLIER:RESEARCHSPECIAL
+ Getting object=SETPOINTMANAGER:SINGLEZONE:REHEAT
+ Getting object=SETPOINTMANAGER:MIXEDAIR
+ Getting object=ZONEHVAC:EQUIPMENTCONNECTIONS
+ Getting object=ZONEHVAC:EQUIPMENTLIST
+ Getting object=AIRLOOPHVAC:SUPPLYPATH
+ Getting object=AIRLOOPHVAC:RETURNPATH
+ Getting object=AIRLOOPHVAC:ZONESPLITTER
+ Getting object=AIRTERMINAL:SINGLEDUCT:UNCONTROLLED
+ Getting object=AIRLOOPHVAC:ZONEMIXER
+ Getting object=AIRLOOPHVAC
+ Getting object=AIRLOOPHVAC:CONTROLLERLIST
+ Getting object=AIRLOOPHVAC:OUTDOORAIRSYSTEM
+ Getting object=AIRLOOPHVAC:OUTDOORAIRSYSTEM:EQUIPMENTLIST
+ Getting object=OUTDOORAIR:MIXER
+ Getting object=AVAILABILITYMANAGER:NIGHTCYCLE
+ Getting object=AVAILABILITYMANAGERASSIGNMENTLIST
+ Getting object=CONTROLLER:OUTDOORAIR
+ Getting object=AIRLOOPHVAC:UNITARY:FURNACE:HEATCOOL
+ Getting object=FAN:ONOFF
+ Getting object=COIL:HEATING:ELECTRIC
+ Getting object=COIL:COOLING:DX:SINGLESPEED
+ Getting object=EXTERNALINTERFACE
+ Getting object=OUTPUTCONTROL:TABLE:STYLE
+ Getting object=CURRENCYTYPE
+ MonthlyInputCount=           0
+ sizeMonthlyInput=           0
+ MonthlyFieldSetInputCount=           0
+ sizeMonthlyFieldSetInput=           0
+ MonthlyTablesCount=           0
+ MonthlyColumnsCount=           0
+ sizeReportName=         100
+ numReportName=          13
+ sizeSubTable=         100
+ numSubTable=          64
+ sizeColumnTag=         800
+ numColumnTag=         422
+ sizeTableEntry=        6400
+ numTableEntry=        3270
+ sizeCompSizeTableEntry=         100
+ numCompSizeTableEntry=          64
+ NumOfRVariable=       26994
+ NumOfRVariable(Total)=       26994
+ NumOfRVariable(Actual)=          79
+ NumOfRVariable(Summed)=          58
+ NumOfRVariable(Meter)=          58
+ NumOfIVariable=        1706
+ NumOfIVariable(Total)=        1706
+ NumOfIVariable(Actual)=           1
+ NumOfIVariable(Summed)=           0
+ MaxRVariable=        1000
+ MaxIVariable=          10
+ NumEnergyMeters=          78
+ NumVarMeterArrays=          58
+ maxUniqueKeyCount=        1500
+ maxNumberOfFigures=       11490
+ MAXHCArrayBounds=          18
+ MaxVerticesPerSurface=           8
+ NumReportList=         500
+ InstMeterCacheSize=        1000
+ ClippingAlgorithm=SutherlandHodgman
+ MonthlyFieldSetInputCount=           0
+ NumConsideredOutputVariables=          22
+ MaxConsideredOutputVariables=       10000
+ numActuatorsUsed=           0
+ numEMSActuatorsAvailable=        2626
+ maxEMSActuatorsAvailable=        4000
+ numInternalVariablesUsed=           0
+ numEMSInternalVarsAvailable=         257
+ maxEMSInternalVarsAvailable=        1000
+ NumOfNodeConnections=         172
+ MaxNumOfNodeConnections=        1000
