@@ -1,0 +1,806 @@
+Program Version	EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.28 19:03
+Tabular Output Report in Format: 	Tab
+
+Building:	Building
+Environment:	SANTA MARIA ** SANTA_MARIA - BRA SWERA WMO#=839360
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Annual Building Utility Performance Summary
+FOR:	Entire Facility
+Values gathered over      8760.00 hours
+
+Site and Source Energy
+
+		Total Energy [kWh]	Energy Per Total Building Area [kWh/m2]	Energy Per Conditioned Building Area [kWh/m2]
+	Total Site Energy	28017.87	96.43	286.85
+	Net Site Energy	28017.87	96.43	286.85
+	Total Source Energy	88732.60	305.40	908.45
+	Net Source Energy	88732.60	305.40	908.45
+
+
+Site to Source Energy Conversion Factors
+
+		Site=>Source Conversion Factor
+	Electricity	3.167
+	Natural Gas	1.084
+	District Cooling	1.056
+	District Heating	3.613
+	Steam	0.300
+	Gasoline	1.050
+	Diesel	1.050
+	Coal	1.050
+	Fuel Oil #1	1.050
+	Fuel Oil #2	1.050
+	Propane	1.050
+	Other Fuel 1	1.000
+	Other Fuel 2	1.000
+
+
+Building Area
+
+		Area [m2]
+	Total Building Area	290.54
+	Net Conditioned Building Area	97.67
+	Unconditioned Building Area	192.87
+
+
+End Uses
+
+		Electricity [kWh]	Natural Gas [kWh]	Additional Fuel [kWh]	District Cooling [kWh]	District Heating [kWh]	Water [m3]
+	Heating	2227.48	0.00	0.00	0.00	0.00	0.00
+	Cooling	4006.83	0.00	0.00	0.00	0.00	0.00
+	Interior Lighting	16696.00	0.00	0.00	0.00	0.00	0.00
+	Exterior Lighting	0.00	0.00	0.00	0.00	0.00	0.00
+	Interior Equipment	878.09	0.00	0.00	0.00	0.00	0.00
+	Exterior Equipment	0.00	0.00	0.00	0.00	0.00	0.00
+	Fans	4209.48	0.00	0.00	0.00	0.00	0.00
+	Pumps	0.00	0.00	0.00	0.00	0.00	0.00
+	Heat Rejection	0.00	0.00	0.00	0.00	0.00	0.00
+	Humidification	0.00	0.00	0.00	0.00	0.00	0.00
+	Heat Recovery	0.00	0.00	0.00	0.00	0.00	0.00
+	Water Systems	0.00	0.00	0.00	0.00	0.00	0.00
+	Refrigeration	0.00	0.00	0.00	0.00	0.00	0.00
+	Generators	0.00	0.00	0.00	0.00	0.00	0.00
+							
+	Total End Uses	28017.87	0.00	0.00	0.00	0.00	0.00
+Note: Electricity appears to be the principal heating source based on energy usage.
+
+
+End Uses By Subcategory
+
+		Subcategory	Electricity [kWh]	Natural Gas [kWh]	Additional Fuel [kWh]	District Cooling [kWh]	District Heating [kWh]	Water [m3]
+	Heating	General	2227.48	0.00	0.00	0.00	0.00	0.00
+	Cooling	General	4006.83	0.00	0.00	0.00	0.00	0.00
+	Interior Lighting	ELECTRIC EQUIPMENT#Block1:Zone3#GeneralLights	3160.45	0.00	0.00	0.00	0.00	0.00
+		ELECTRIC EQUIPMENT#Block1:Zone7#GeneralLights	6293.79	0.00	0.00	0.00	0.00	0.00
+		ELECTRIC EQUIPMENT#Block1:Zone6#GeneralLights	2728.23	0.00	0.00	0.00	0.00	0.00
+		ELECTRIC EQUIPMENT#Block3:Zone1#GeneralLights	1910.20	0.00	0.00	0.00	0.00	0.00
+		ELECTRIC EQUIPMENT#Block6:Zone1#GeneralLights	2603.32	0.00	0.00	0.00	0.00	0.00
+	Exterior Lighting	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Interior Equipment	ELECTRIC EQUIPMENT#Block1:Zone7#02	878.09	0.00	0.00	0.00	0.00	0.00
+	Exterior Equipment	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Fans	General	4209.48	0.00	0.00	0.00	0.00	0.00
+	Pumps	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Heat Rejection	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Humidification	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Heat Recovery	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Water Systems	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Refrigeration	General	0.00	0.00	0.00	0.00	0.00	0.00
+	Generators	General	0.00	0.00	0.00	0.00	0.00	0.00
+
+
+Normalized Metrics
+Utility Use Per Conditioned Floor Area
+
+		Electricity Intensity [kWh/m2]	Natural Gas Intensity [kWh/m2]	Additional Fuel Intensity [kWh/m2]	District Cooling Intensity [kWh/m2]	District Heating Intensity [kWh/m2]	Water Intensity [m3/m2]
+	Lighting	170.94	0.00	0.00	0.00	0.00	0.00
+	HVAC	106.92	0.00	0.00	0.00	0.00	0.00
+	Other	8.99	0.00	0.00	0.00	0.00	0.00
+	Total	286.85	0.00	0.00	0.00	0.00	0.00
+
+
+Utility Use Per Total Floor Area
+
+		Electricity Intensity [kWh/m2]	Natural Gas Intensity [kWh/m2]	Additional Fuel Intensity [kWh/m2]	District Cooling Intensity [kWh/m2]	District Heating Intensity [kWh/m2]	Water Intensity [m3/m2]
+	Lighting	57.46	0.00	0.00	0.00	0.00	0.00
+	HVAC	35.95	0.00	0.00	0.00	0.00	0.00
+	Other	3.02	0.00	0.00	0.00	0.00	0.00
+	Total	96.43	0.00	0.00	0.00	0.00	0.00
+
+
+Electric Loads Satisfied
+
+		Electricity [kWh]	Percent Electricity [%]
+	Fuel-Fired Power Generation	0.000	0.00
+	High Temperature Geothermal*	0.000	0.00
+	Photovoltaic Power	0.000	0.00
+	Wind Power	0.000	0.00
+	Power Conversion	0.000	0.00
+	Net Decrease in On-Site Storage	0.000	0.00
+	Total On-Site Electric Sources	0.000	0.00
+			
+	Electricity Coming From Utility	28017.871	100.00
+	Surplus Electricity Going To Utility	0.000	0.00
+	Net Electricity From Utility	28017.871	100.00
+			
+	Total On-Site and Utility Electric Sources	28017.871	100.00
+	Total Electricity End Uses	28017.871	100.00
+
+
+On-Site Thermal Sources
+
+		Heat [kWh]	Percent Heat [%]
+	Water-Side Heat Recovery	0.00	
+	Air to Air Heat Recovery for Cooling	0.00	
+	Air to Air Heat Recovery for Heating	0.00	
+	High-Temperature Geothermal*	0.00	
+	Solar Water Thermal	0.00	
+	Solar Air Thermal	0.00	
+	Total On-Site Thermal Sources	0.00	
+
+
+Water Source Summary
+
+		Water [m3]	Percent Water [%]
+	Rainwater Collection	0.00	-
+	Condensate Collection	0.00	-
+	Groundwater Well	0.00	-
+	Total On Site Water Sources	0.00	-
+	-	-	-
+	Initial Storage	0.00	-
+	Final Storage	0.00	-
+	Change in Storage	0.00	-
+	-	-	-
+	Water Supplied by Utility	0.00	-
+	-	-	-
+	Total On Site, Change in Storage, and Utility Water Sources	0.00	-
+	Total Water End Uses	0.00	-
+
+
+Setpoint Not Met Criteria
+
+		Degrees [deltaC]
+	Tolerance for Zone Heating Setpoint Not Met Time	0.20
+	Tolerance for Zone Cooling Setpoint Not Met Time	0.20
+
+
+Comfort and Setpoint Not Met Summary
+
+		Facility [Hours]
+	Time Setpoint Not Met During Occupied Heating	457.00
+	Time Setpoint Not Met During Occupied Cooling	4700.00
+	Time Not Comfortable Based on Simple ASHRAE 55-2004	4715.00
+
+
+Note 1: An asterisk (*) indicates that the feature is not yet implemented.
+----------------------------------------------------------------------------------------------------
+REPORT:	Input Verification and Results Summary
+FOR:	Entire Facility
+General
+
+		Value
+	Program Version and Build	EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.28 19:03
+	RunPeriod	SANTA MARIA
+	Weather File	SANTA_MARIA - BRA SWERA WMO#=839360
+	Latitude [deg]	-29.7
+	Longitude [deg]	-53.7
+	Elevation [m]	114.00
+	Time Zone	-3.0
+	North Axis Angle [deg]	0.00
+	Rotation for Appendix G [deg]	0.00
+	Hours Simulated [hrs]	8760.00
+
+
+ENVELOPE
+Window-Wall Ratio
+
+		Total	North (315 to 45 deg)	East (45 to 135 deg)	South (135 to 225 deg)	West (225 to 315 deg)
+	Gross Wall Area [m2]	290.25	85.42	60.16	84.52	60.16
+	Above Ground Wall Area [m2]	247.41	73.19	51.93	70.22	52.08
+	Window Opening Area [m2]	52.01	32.56	6.42	10.44	2.59
+	Gross Window-Wall Ratio [%]	17.92	38.12	10.67	12.35	4.31
+	Above Ground Window-Wall Ratio [%]	21.02	44.49	12.37	14.87	4.98
+
+
+Conditioned Window-Wall Ratio
+
+		Total	North (315 to 45 deg)	East (45 to 135 deg)	South (135 to 225 deg)	West (225 to 315 deg)
+	Gross Wall Area [m2]	143.77	51.47	21.55	30.56	40.20
+	Above Ground Wall Area [m2]	143.77	51.47	21.55	30.56	40.20
+	Window Opening Area [m2]	29.67	19.19	0.00	7.89	2.59
+	Gross Window-Wall Ratio [%]	20.64	37.28	0.00	25.82	6.44
+	Above Ground Window-Wall Ratio [%]	20.64	37.28	0.00	25.82	6.44
+
+
+Skylight-Roof Ratio
+
+		Total
+	Gross Roof Area [m2]	138.06
+	Skylight Area [m2]	18.73
+	Skylight-Roof Ratio [%]	13.57
+
+
+PERFORMANCE
+Zone Summary
+
+		Area [m2]	Conditioned (Y/N)	Part of Total Floor Area (Y/N)	Volume [m3]	Multipliers	Above Ground Gross Wall Area [m2]	Underground Gross Wall Area [m2]	Window Glass Area [m2]	Opening Area [m2]	Lighting [W/m2]	People [m2 per person]	Plug and Process [W/m2]
+	BLOCK5:ZONE1	109.81	No	Yes	109.81	1.00	8.76	42.84	0.00	0.00	0.0000		0.0000
+	BLOCK1:ZONE4	4.32	No	Yes	12.95	1.00	13.20	0.00	0.37	0.48	0.0000		0.0000
+	BLOCK1:ZONE3	15.87	Yes	Yes	47.60	1.00	25.05	0.00	2.92	3.20	25.0000	8.33	0.0000
+	BLOCK1:ZONE7	50.12	Yes	Yes	151.20	1.00	49.63	0.00	6.69	7.50	25.0000	12.50	2.0000
+	BLOCK1:ZONE6	13.97	Yes	Yes	41.92	1.00	17.70	0.00	2.92	3.20	25.0000	7.14	0.0000
+	BLOCK1:ZONE5	12.22	No	Yes	36.67	1.00	30.60	0.00	16.63	16.63	0.0000		0.0000
+	BLOCK1:ZONE1	5.07	No	Yes	15.22	1.00	13.68	0.00	1.57	1.80	0.0000		0.0000
+	BLOCK1:ZONE2	7.96	No	Yes	23.88	1.00	4.94	0.00	0.00	0.00	0.0000		0.0000
+	BLOCK3:ZONE1	46.50	No	Yes	74.72	1.00	31.75	0.00	3.02	3.43	25.0000		0.0000
+	BLOCK6:ZONE1	17.72	Yes	Yes	115.04	1.00	51.40	0.00	14.52	15.76	25.0000		0.0000
+	BLOCK2:ZONE1	6.98	No	Yes	6.46	1.00	0.71	0.00	0.00	0.00	0.0000		0.0000
+	Total	290.54			635.45		247.41	42.84	48.65	52.01	12.4058	36.92	0.3450
+	Conditioned Total	97.67			355.75		143.77	0.00	27.05	29.67	25.0000	12.41	1.0262
+	Unconditioned Total	192.87			279.71		103.64	42.84	21.60	22.34	6.0277		0.0000
+	Not Part of Total	0.00			0.00		0.00	0.00	0.00	0.00			
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Climatic Data Summary
+FOR:	Entire Facility
+SizingPeriod:DesignDay
+
+		Maximum Dry Bulb [C]	Daily Temperature Range [deltaC]	Humidity Value	Humidity Type	Wind Speed [m/s]	Wind Direction
+	SUMMER DESIGN DAY IN SANTA MARIA	32.20	6.70	25.50	Wetbulb [C]	0.00	0.00
+	WINTER DESIGN DAY IN SANTA MARIA	7.50	0.00	7.50	Wetbulb [C]	10.00	0.00
+
+
+Weather Statistics File
+
+		Value
+	None	
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Envelope Summary
+FOR:	Entire Facility
+Opaque Exterior
+
+		Construction	Reflectance	U-Factor with Film [W/m2-K]	U-Factor no Film [W/m2-K]	Gross Area [m2]	Net Area [m2]	Azimuth [deg]	Tilt [deg]	Cardinal Direction
+	BLOCK5:ZONE1_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	4.83	4.83	90.00	90.00	E
+	BLOCK5:ZONE1_WALL_2_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	2.07	1.44	90.00	90.00	E
+	BLOCK5:ZONE1_WALL_3_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	4.13	4.13	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_3_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.77	1.77	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_4_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	0.20	0.20	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_4_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_5_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	0.20	0.20	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_5_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_6_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	1.70	1.70	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_6_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_7_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	1.55	1.55	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_7_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_7_1_1	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_8_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	1.70	1.70	90.00	90.00	E
+	BLOCK5:ZONE1_WALL_8_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	90.00	90.00	E
+	BLOCK5:ZONE1_WALL_9_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	6.35	6.35	0.00	90.00	N
+	BLOCK5:ZONE1_WALL_10_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	4.48	4.48	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_10_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.92	1.29	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_11_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	0.86	0.86	180.00	90.00	S
+	BLOCK5:ZONE1_WALL_11_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	0.05	0.05	180.00	90.00	S
+	BLOCK5:ZONE1_WALL_11_2_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	1.29	1.29	180.00	90.00	S
+	BLOCK5:ZONE1_WALL_11_3_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	180.00	90.00	S
+	BLOCK5:ZONE1_WALL_12_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	1.70	1.70	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_12_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	270.00	90.00	W
+	BLOCK5:ZONE1_WALL_13_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	7.90	7.90	180.00	90.00	S
+	BLOCK5:ZONE1_WALL_14_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	1.70	1.70	90.00	90.00	E
+	BLOCK5:ZONE1_WALL_14_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	90.00	90.00	E
+	BLOCK5:ZONE1_WALL_15_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.700	0.764	4.20	4.20	180.00	90.00	S
+	BLOCK5:ZONE1_WALL_15_1_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.30	0.30	180.00	90.00	S
+	BLOCK5:ZONE1_GROUNDFLOOR_0_0_0	EARTH COMMON (0.5M)	0.30	1.809	2.560	12.70	12.70	0.00	180.00	
+	BLOCK5:ZONE1_GROUNDFLOOR_0_0_1	EARTH COMMON (0.5M)	0.30	1.809	2.560	12.00	12.00	0.00	180.00	
+	BLOCK5:ZONE1_GROUNDFLOOR_0_0_2	EARTH COMMON (0.5M)	0.30	1.809	2.560	37.40	37.40	0.00	180.00	
+	BLOCK5:ZONE1_GROUNDFLOOR_0_0_3	EARTH COMMON (0.5M)	0.30	1.809	2.560	4.20	4.20	0.00	180.00	
+	BLOCK5:ZONE1_GROUNDFLOOR_0_0_4	EARTH COMMON (0.5M)	0.30	1.809	2.560	31.05	31.05	0.00	180.00	
+	BLOCK5:ZONE1_GROUNDFLOOR_0_0_5	EARTH COMMON (0.5M)	0.30	1.809	2.560	12.46	12.46	0.00	180.00	
+	BLOCK1:ZONE4_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	4.43	3.95	90.00	90.00	E
+	BLOCK1:ZONE4_WALL_5_0_0	PAREDES EXTERNAS 11 TIJOLO A VISTA	0.30	3.825	8.949	8.78	8.78	180.00	90.00	S
+	BLOCK1:ZONE3_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	16.27	16.27	90.00	90.00	E
+	BLOCK1:ZONE3_WALL_3_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	8.78	5.58	0.00	90.00	N
+	BLOCK1:ZONE7_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.22	0.22	90.00	90.00	E
+	BLOCK1:ZONE7_WALL_4_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	13.42	11.55	270.00	90.00	W
+	BLOCK1:ZONE7_WALL_5_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	7.50	4.57	180.00	90.00	S
+	BLOCK1:ZONE7_WALL_6_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.22	0.22	270.00	90.00	W
+	BLOCK1:ZONE7_WALL_7_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.78	5.78	270.00	90.00	W
+	BLOCK1:ZONE7_WALL_8_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	15.81	13.11	180.00	90.00	S
+	BLOCK1:ZONE7_WALL_14_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.22	0.22	270.00	90.00	W
+	BLOCK1:ZONE7_WALL_15_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	4.32	2.45	0.00	90.00	N
+	BLOCK1:ZONE7_WALL_16_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	2.13	2.13	0.00	90.00	N
+	BLOCK1:ZONE7_ROOF_1_2_0	LAJE DE ENTREPISO	0.40	0.686	0.758	0.09	0.09	180.00	0.00	
+	BLOCK1:ZONE7_ROOF_1_2_1	LAJE DE ENTREPISO	0.40	0.686	0.758	3.95	3.95	180.00	0.00	
+	BLOCK1:ZONE6_WALL_3_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	8.92	5.73	0.00	90.00	N
+	BLOCK1:ZONE6_WALL_4_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.50	1.50	270.00	90.00	W
+	BLOCK1:ZONE6_WALL_5_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.50	1.50	0.00	90.00	N
+	BLOCK1:ZONE6_WALL_6_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.78	5.78	270.00	90.00	W
+	BLOCK1:ZONE5_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.78	2.52	90.00	90.00	E
+	BLOCK1:ZONE5_WALL_3_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	19.05	5.68	0.00	90.00	N
+	BLOCK1:ZONE5_WALL_4_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.78	5.78	270.00	90.00	W
+	BLOCK1:ZONE1_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.78	4.05	90.00	90.00	E
+	BLOCK1:ZONE1_WALL_6_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	7.89	6.09	180.00	90.00	S
+	BLOCK1:ZONE2_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.22	0.22	90.00	90.00	E
+	BLOCK1:ZONE2_WALL_3_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	4.73	4.73	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_1_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	11.51	8.83	90.00	90.00	E
+	BLOCK3:ZONE1_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	2.61	2.61	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_1	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.13	1.13	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_2	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.89	0.89	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_3	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.27	5.27	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_4	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.40	0.40	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_5	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.12	0.12	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_6	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.64	1.64	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_7	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	4.86	4.86	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_2_0_8	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.75	0.00	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_3_0_2	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.21	0.21	270.00	90.00	W
+	BLOCK3:ZONE1_WALL_3_0_3	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.34	0.34	270.00	90.00	W
+	BLOCK3:ZONE1_WALL_3_0_7	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	2.02	2.02	270.00	90.00	W
+	BLOCK3:ZONE1_EXTFLOOR_4_6_0	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	1.30	1.30	0.00	180.00	
+	BLOCK3:ZONE1_EXTFLOOR_4_6_1	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	2.09	2.09	0.00	180.00	
+	BLOCK3:ZONE1_EXTFLOOR_4_6_2	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	1.69	1.69	0.00	180.00	
+	BLOCK3:ZONE1_EXTFLOOR_4_6_3	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	0.22	0.22	0.00	180.00	
+	BLOCK3:ZONE1_ROOF_0_0_0	TELHADO QUARTOS	0.40	5.097	17.000	52.33	52.33	0.00	22.46	
+	BLOCK6:ZONE1_WALL_1_0_3	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	3.68	3.68	90.00	90.00	E
+	BLOCK6:ZONE1_WALL_2_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.40	0.40	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_2_0_1	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.61	5.61	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_2_0_2	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.72	0.72	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_2_0_3	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.39	0.39	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_2_0_4	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	5.20	5.20	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_2_0_5	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.70	0.70	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_2_0_6	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	12.81	0.02	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_3_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	11.89	11.17	270.00	90.00	W
+	BLOCK6:ZONE1_WALL_4_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	6.02	3.75	180.00	90.00	S
+	BLOCK6:ZONE1_WALL_5_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.39	1.39	270.00	90.00	W
+	BLOCK6:ZONE1_WALL_6_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.24	1.24	180.00	90.00	S
+	BLOCK6:ZONE1_WALL_7_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	1.37	1.37	90.00	90.00	E
+	BLOCK6:ZONE1_EXTFLOOR_0_3_1	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	0.62	0.62	0.00	180.00	
+	BLOCK6:ZONE1_EXTFLOOR_0_3_2	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	1.36	1.36	0.00	180.00	
+	BLOCK6:ZONE1_EXTFLOOR_0_3_3	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	0.81	0.81	0.00	180.00	
+	BLOCK6:ZONE1_EXTFLOOR_0_3_4	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	1.62	1.62	0.00	180.00	
+	BLOCK6:ZONE1_EXTFLOOR_0_3_5	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	0.57	0.57	0.00	180.00	
+	BLOCK6:ZONE1_EXTFLOOR_21_0_0	LINK BODY	0.30	0.001	0.001	0.09	0.09	0.00	180.00	
+	BLOCK6:ZONE1_ROOF_9_0_0	TELHADO MESANINO	0.40	0.751	0.837	4.40	4.40	180.00	25.86	
+	BLOCK6:ZONE1_ROOF_9_0_1	TELHADO MESANINO	0.40	0.751	0.837	28.23	28.23	180.00	25.86	
+	BLOCK6:ZONE1_ROOF_9_0_2	TELHADO MESANINO	0.40	0.751	0.837	30.10	30.10	180.00	25.86	
+	BLOCK6:ZONE1_ROOF_19_0_0	LINK BODY	0.30	0.001	0.001	0.09	0.09	180.00	0.00	
+	BLOCK2:ZONE1_WALL_3_0_0	PAREDES EXTERNAS 29 BRANCAS	0.80	0.686	0.764	0.71	0.71	270.00	90.00	W
+	BLOCK2:ZONE1_EXTFLOOR_0_2_0	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	3.63	3.63	0.00	180.00	
+	BLOCK2:ZONE1_EXTFLOOR_0_2_1	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	2.36	2.36	0.00	180.00	
+	BLOCK2:ZONE1_EXTFLOOR_0_2_2	REFERENCE EXTERNAL FLOOR (BELOW SLAB) HEAVYWEIGHT	0.30	0.251	0.264	0.57	0.57	0.00	180.00	
+	BLOCK2:ZONE1_EXTFLOOR_14_0_0	LINK BODY	0.30	0.001	0.001	0.09	0.09	0.00	180.00	
+	BLOCK2:ZONE1_ROOF_1_0_0	TELHADO MESANINO	0.40	0.751	0.837	18.78	0.04	0.00	20.30	
+	BLOCK2:ZONE1_ROOF_12_0_0	LINK BODY	0.30	0.001	0.001	0.09	0.09	180.00	0.00	
+
+
+Exterior Fenestration
+
+		Construction	Glass Area [m2]	Frame Area [m2]	Divider Area [m2]	Area of One Opening [m2]	Area of Multiplied Openings [m2]	Glass U-Factor [W/m2-K]	Glass SHGC	Glass Visible Transmittance	Frame Conductance [W/m2-K]	Divider Conductance [W/m2-K]	Shade Control	Parent Surface	Azimuth [deg]	Tilt [deg]	Cardinal Direction
+	BLOCK1:ZONE4_WALL_2_0_0_0_0_0_WIN	1001	0.36	0.11	0.01	0.48	0.48	3.159	0.762	0.812	8.500	8.500	No	BLOCK1:ZONE4_WALL_2_0_0	90.00	90.00	E
+	BLOCK1:ZONE3_WALL_3_0_0_0_0_0_WIN	1002	2.89	0.28	0.03	3.20	3.20	3.159	0.762	0.812	8.500	8.500	Yes	BLOCK1:ZONE3_WALL_3_0_0	0.00	90.00	N
+	BLOCK1:ZONE7_WALL_4_0_0_0_0_0_WIN	1001	1.60	0.23	0.04	1.88	1.88	3.159	0.762	0.812	8.500	8.500	No	BLOCK1:ZONE7_WALL_4_0_0	270.00	90.00	W
+	BLOCK1:ZONE7_WALL_5_0_0_0_0_0_WIN	1001	2.61	0.27	0.04	2.93	2.93	3.159	0.762	0.812	8.500	8.500	No	BLOCK1:ZONE7_WALL_5_0_0	180.00	90.00	S
+	BLOCK1:ZONE7_WALL_8_0_0_0_0_0_WIN	1001	2.38	0.31	0.02	2.70	2.70	3.159	0.762	0.812	8.500	8.500	No	BLOCK1:ZONE7_WALL_8_0_0	180.00	90.00	S
+	BLOCK1:ZONE6_WALL_3_0_0_0_0_0_WIN	1004	2.89	0.28	0.03	3.20	3.20	3.159	0.762	0.812	8.500	8.500	Yes	BLOCK1:ZONE6_WALL_3_0_0	0.00	90.00	N
+	BLOCK1:ZONE5_WALL_2_0_0_0_0_0_WIN	1001	3.26	0.00	0.00	3.26	3.26	3.159	0.762	0.812			No	BLOCK1:ZONE5_WALL_2_0_0	90.00	90.00	E
+	BLOCK1:ZONE5_WALL_3_0_0_0_0_0_WIN	1001	13.37	0.00	0.00	13.37	13.37	3.159	0.762	0.812			No	BLOCK1:ZONE5_WALL_3_0_0	0.00	90.00	N
+	BLOCK1:ZONE1_WALL_6_0_0_0_0_0_WIN	1001	1.56	0.23	0.02	1.80	1.80	3.159	0.762	0.812	8.500	8.500	No	BLOCK1:ZONE1_WALL_6_0_0	180.00	90.00	S
+	BLOCK3:ZONE1_WALL_1_0_0_0_0_0_WIN	1001	2.40	0.26	0.03	2.68	2.68	3.159	0.762	0.812	8.500	8.500	No	BLOCK3:ZONE1_WALL_1_0_0	90.00	90.00	E
+	BLOCK3:ZONE1_WALL_2_0_8_0_8_0_WIN	1001	0.59	0.15	0.01	0.75	0.75	3.159	0.762	0.812	8.500	8.500	No	BLOCK3:ZONE1_WALL_2_0_8	180.00	90.00	S
+	BLOCK6:ZONE1_WALL_2_0_6_0_6_0_WIN	1005	12.00	0.76	0.03	12.79	12.79	3.159	0.762	0.812	8.500	8.500	Yes	BLOCK6:ZONE1_WALL_2_0_6	0.00	90.00	N
+	BLOCK6:ZONE1_WALL_3_0_0_0_0_0_WIN	1001	0.57	0.14	0.01	0.71	0.71	3.159	0.762	0.812	8.500	8.500	No	BLOCK6:ZONE1_WALL_3_0_0	270.00	90.00	W
+	BLOCK6:ZONE1_WALL_4_0_0_0_0_0_WIN	1001	1.91	0.34	0.01	2.26	2.26	3.159	0.762	0.812	8.500	8.500	No	BLOCK6:ZONE1_WALL_4_0_0	180.00	90.00	S
+	BLOCK2:ZONE1_ROOF_1_0_0_0_0_0_WIN	1006	17.64	0.88	0.22	18.73	18.73	3.159	0.762	0.812	9.500	9.500	Yes	BLOCK2:ZONE1_ROOF_1_0_0	0.00	20.30	
+	Total or Average						70.74	3.159	0.762	0.812							
+	North Total or Average						32.56	3.159	0.762	0.812							
+	Non-North Total or Average						38.19	3.159	0.762	0.812							
+
+
+Interior Fenestration
+
+		Construction	Area of One Opening [m2]	Area of Openings [m2]	Glass U-Factor [W/m2-K]	Glass SHGC	Glass Visible Transmittance	Parent Surface
+	BLOCK1:ZONE3_PARTITION_5_0_0_1_0_1_WIN	1001	0.24	0.24	3.159	0.762	0.812	BLOCK1:ZONE3_PARTITION_5_0_0
+	BLOCK1:ZONE7_PARTITION_3_0_0_0_0_0_WIN	1003	14.66	14.66	5.894	0.861	0.898	BLOCK1:ZONE7_PARTITION_3_0_0
+	BLOCK1:ZONE6_PARTITION_9_0_0_1_0_1_WIN	1001	0.24	0.24	3.159	0.762	0.812	BLOCK1:ZONE6_PARTITION_9_0_0
+	BLOCK1:ZONE5_PARTITION_5_0_0_0_0_0_WIN_10044	1003	14.66	14.66	5.894	0.861	0.898	BLOCK1:ZONE5_PARTITION_5_0_10042
+	BLOCK1:ZONE2_PARTITION_5_0_0_1_0_1_WIN_10032	1001	0.24	0.24	3.159	0.762	0.812	BLOCK1:ZONE2_PARTITION_5_0_10029
+	BLOCK1:ZONE2_PARTITION_6_0_0_1_0_1_WIN_10058	1001	0.24	0.24	3.159	0.762	0.812	BLOCK1:ZONE2_PARTITION_6_0_10055
+	Total or Average			30.29	5.807	0.858	0.895	
+
+
+Exterior Door
+
+		Construction	U-Factor with Film [W/m2-K]	U-Factor no Film [W/m2-K]	Gross Area [m2]	Parent Surface
+	BLOCK5:ZONE1_WALL_2_1_0_0_0_0_VENT	HOLES AND VENTS	0.465	0.500	0.31	BLOCK5:ZONE1_WALL_2_1_0
+	BLOCK5:ZONE1_WALL_2_1_0_1_0_1_VENT	HOLES AND VENTS	0.465	0.500	0.32	BLOCK5:ZONE1_WALL_2_1_0
+	BLOCK5:ZONE1_WALL_10_1_0_0_0_0_VENT	HOLES AND VENTS	0.465	0.500	0.31	BLOCK5:ZONE1_WALL_10_1_0
+	BLOCK5:ZONE1_WALL_10_1_0_1_0_1_VENT	HOLES AND VENTS	0.465	0.500	0.32	BLOCK5:ZONE1_WALL_10_1_0
+	BLOCK1:ZONE7_WALL_15_0_0_0_0_0_DOOR	SOLID HARDWOOD DOOR (NORMALLY HUNG)	2.697	4.524	1.87	BLOCK1:ZONE7_WALL_15_0_0
+	BLOCK1:ZONE1_WALL_2_0_0_0_0_0_DOOR	SOLID HARDWOOD DOOR (NORMALLY HUNG)	2.697	4.524	1.73	BLOCK1:ZONE1_WALL_2_0_0
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Lighting Summary
+FOR:	Entire Facility
+Interior Lighting
+
+		Zone	Lighting Power Density [W/m2]	Zone Area [m2]	Total Power [W]	End Use Subcategory	Schedule Name	Scheduled Hours/Week [hr]	Hours/Week > 1% [hr]	Full Load Hours/Week [hr]	Return Air Fraction	Conditioned (Y/N)	Consumption [kWh]
+	BLOCK1:ZONE3 GENERAL LIGHTING	BLOCK1:ZONE3	25.0000	15.87	396.65	ELECTRIC EQUIPMENT#Block1:Zone3#GeneralLights	2	168.00	167.98	152.79	0.0000	Y	3160.06
+	BLOCK1:ZONE7 GENERAL LIGHTING	BLOCK1:ZONE7	25.0000	50.12	1252.98	ELECTRIC EQUIPMENT#Block1:Zone7#GeneralLights	2	168.00	108.43	96.31	0.0000	Y	6292.54
+	BLOCK1:ZONE6 GENERAL LIGHTING	BLOCK1:ZONE6	25.0000	13.97	349.30	ELECTRIC EQUIPMENT#Block1:Zone6#GeneralLights	2	168.00	167.98	149.77	0.0000	Y	2727.89
+	BLOCK3:ZONE1 GENERAL LIGHTING	BLOCK3:ZONE1	25.0000	46.50	1162.54	ELECTRIC EQUIPMENT#Block3:Zone1#GeneralLights	1101	59.84	51.78	31.51	0.0000	N	1910.21
+	BLOCK6:ZONE1 GENERAL LIGHTING	BLOCK6:ZONE1	25.0000	17.72	442.93	ELECTRIC EQUIPMENT#Block6:Zone1#GeneralLights	2	168.00	139.75	112.70	0.0000	Y	2602.88
+	Interior Lighting Total		25.0000	144.18	3604.40								16693.57
+
+
+Daylighting
+
+		Zone	Control Name	Daylighting Method	Control Type	Fraction Controlled	Lighting Installed in Zone [W]	Lighting Controlled [W]
+	BLOCK1:ZONE3_DAYLREFPT1	BLOCK1:ZONE3	BLOCK1:ZONE3_DAYLCTRL	SplitFlux	Continuous	1.00	396.65	396.65
+	BLOCK1:ZONE7_DAYLREFPT1	BLOCK1:ZONE7	BLOCK1:ZONE7_DAYLCTRL	SplitFlux	Continuous	1.00	1252.98	1252.98
+	BLOCK1:ZONE6_DAYLREFPT1	BLOCK1:ZONE6	BLOCK1:ZONE6_DAYLCTRL	SplitFlux	Continuous	1.00	349.30	349.30
+	BLOCK3:ZONE1_DAYLREFPT1	BLOCK3:ZONE1	BLOCK3:ZONE1_DAYLCTRL	SplitFlux	Continuous	1.00	1162.54	1162.54
+	BLOCK6:ZONE1_DAYLREFPT1	BLOCK6:ZONE1	BLOCK6:ZONE1_DAYLCTRL	SplitFlux	Continuous	1.00	442.93	442.93
+
+
+Exterior Lighting
+
+		Total Watts	Astronomical Clock/Schedule	Schedule Name	Scheduled Hours/Week [hr]	Hours/Week > 1% [hr]	Full Load Hours/Week [hr]	Consumption [kWh]
+	Exterior Lighting Total	0.00						0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Equipment Summary
+FOR:	Entire Facility
+Central Plant
+
+		Type	Nominal Capacity [W]	Nominal Efficiency [W/W]	IPLV in SI Units [W/W]	IPLV in IP Units [Btu/W-h]
+	None					
+
+
+Cooling Coils
+
+		Type	Design Coil Load [W]	Nominal Total Capacity [W]	Nominal Sensible Capacity [W]	Nominal Latent Capacity [W]	Nominal Sensible Heat Ratio	Nominal Efficiency [W/W]	Nominal Coil UA Value [W/C]	Nominal Coil Surface Area [m2]
+	BLOCK1:ZONE3 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed		************	************	571308484.96	0.80	1.67		
+	BLOCK1:ZONE7 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed		5556.72	3756.80	1799.91	0.68	1.67		
+	BLOCK1:ZONE6 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed		12719.73	9824.88	2894.84	0.77	1.67		
+	BLOCK6:ZONE1 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed		74845.46	59129.14	15716.32	0.79	1.67		
+Nominal values are gross at rated conditions, i.e., the supply air fan heat and electric power NOT accounted for.
+
+
+DX Cooling Coils
+
+		DX Cooling Coil Type	Standard Rated Net Cooling Capacity [W]	Standard Rated Net COP [W/W]	EER [Btu/W-h]	SEER [Btu/W-h]	IEER [Btu/W-h]
+	BLOCK1:ZONE3 AHU COOLING COIL		2704455948.5	1.48	5.04	5.36	5.36
+	BLOCK1:ZONE7 AHU COOLING COIL		5382.8	1.54	5.25	5.59	5.70
+	BLOCK1:ZONE6 AHU COOLING COIL		12165.9	1.49	5.08	5.41	5.43
+	BLOCK6:ZONE1 AHU COOLING COIL		71419.2	1.48	5.05	5.38	5.38
+ANSI/AHRI ratings account for supply air fan heat and electric power.
+
+
+DX Cooling Coil ASHRAE 127 Standard Ratings Report
+
+		DX Cooling Coil Type	Rated Net Cooling Capacity Test A [W]	Rated Electric Power Test A [W]	Rated Net Cooling Capacity Test B [W]	Rated Electric Power Test B [W]	Rated Net Cooling Capacity Test C [W]	Rated Electric Power Test C [W]	Rated Net Cooling Capacity Test D [W]	Rated Electric Power Test D [W]
+	BLOCK1:ZONE3 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed								
+	BLOCK1:ZONE7 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed								
+	BLOCK1:ZONE6 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed								
+	BLOCK6:ZONE1 AHU COOLING COIL	Coil:Cooling:DX:SingleSpeed								
+
+
+DX Heating Coils
+
+		DX Heating Coil Type	High Temperature Heating (net) Rating Capacity [W]	Low Temperature Heating (net) Rating Capacity [W]	HSPF [Btu/W-h]	Region Number
+	None					
+
+
+Heating Coils
+
+		Type	Design Coil Load [W]	Nominal Total Capacity [W]	Nominal Efficiency [W/W]
+	BLOCK1:ZONE3 AHU HEATING COIL	Coil:Heating:Electric		0.00	1.00
+	BLOCK1:ZONE7 AHU HEATING COIL	Coil:Heating:Electric		830.13	1.00
+	BLOCK1:ZONE6 AHU HEATING COIL	Coil:Heating:Electric		27279.00	1.00
+	BLOCK6:ZONE1 AHU HEATING COIL	Coil:Heating:Electric		168795.99	1.00
+
+
+Fans
+
+		Type	Total Efficiency [W/W]	Delta Pressure [pa]	Max Air Flow Rate [m3/s]	Rated Electric Power [W]	Rated Power Per Max Air Flow Rate [W-s/m3]	Motor Heat In Air Fraction	End Use
+	BLOCK1:ZONE3 AHU SUPPLY FAN	Fan:OnOff	0.70	400.00	171411.21	97949263.04	571.43	1.00	General
+	BLOCK1:ZONE7 AHU SUPPLY FAN	Fan:OnOff	0.70	400.00	0.22	127.87	571.43	1.00	General
+	BLOCK1:ZONE6 AHU SUPPLY FAN	Fan:OnOff	0.70	400.00	0.71	407.74	571.43	1.00	General
+	BLOCK6:ZONE1 AHU SUPPLY FAN	Fan:OnOff	0.70	400.00	4.42	2522.96	571.43	1.00	General
+
+
+Pumps
+
+		Type	Control	Head [pa]	Water Flow [m3/s]	Electric Power [W]	Power Per Water Flow Rate [W-s/m3]	Motor Efficiency [W/W]
+	None							
+
+
+Service Water Heating
+
+		Type	Storage Volume [m3]	Input [W]	Thermal Efficiency [W/W]	Recovery Efficiency [W/W]	Energy Factor
+	None						
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	HVAC Sizing Summary
+FOR:	Entire Facility
+Zone Sensible Cooling
+
+		Calculated Design Load [W]	User Design Load [W]	User Design Load per Area [W/m2]	Calculated Design Air Flow [m3/s]	User Design Air Flow [m3/s]	Design Day Name	Date/Time Of Peak {TIMESTAMP}	Thermostat Setpoint Temperature at Peak Load [C]	Indoor Temperature at Peak Load [C]	Indoor Humidity Ratio at Peak Load [kgWater/kgAir]	Outdoor Temperature at Peak Load [C]	Outdoor Humidity Ratio at Peak Load [kgWater/kgAir]	Minimum Outdoor Air Flow Rate [m3/s]	Heat Gain Rate from DOAS [W]
+	BLOCK1:ZONE3	21148.47	25378.17	1599.51	142842.675	171411.210	SUMMER DESIGN DAY IN SANTA MARIA	7/15 11:00:00	0.00	13.06	0.00803	30.66	0.01790	0.000	0.00
+	BLOCK1:ZONE7	2980.46	3576.55	71.36	0.186	0.224	SUMMER DESIGN DAY IN SANTA MARIA	7/15 04:00:00	26.00	25.99	0.01540	25.63	0.01790	0.000	0.00
+	BLOCK1:ZONE6	105.66	126.79	9.07	0.007	0.008	SUMMER DESIGN DAY IN SANTA MARIA	7/15 21:00:00	26.00	26.00	0.00878	28.25	0.01790	0.000	0.00
+	BLOCK6:ZONE1	2091.36	2509.63	141.65	0.131	0.157	SUMMER DESIGN DAY IN SANTA MARIA	7/15 17:00:00	26.00	26.00	0.00820	31.26	0.01790	0.000	0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+Zone Sensible Heating
+
+		Calculated Design Load [W]	User Design Load [W]	User Design Load per Area [W/m2]	Calculated Design Air Flow [m3/s]	User Design Air Flow [m3/s]	Design Day Name	Date/Time Of Peak {TIMESTAMP}	Thermostat Setpoint Temperature at Peak Load [C]	Indoor Temperature at Peak Load [C]	Indoor Humidity Ratio at Peak Load [kgWater/kgAir]	Outdoor Temperature at Peak Load [C]	Outdoor Humidity Ratio at Peak Load [kgWater/kgAir]	Minimum Outdoor Air Flow Rate [m3/s]	Heat Gain Rate from DOAS [W]
+	BLOCK1:ZONE7	702.00	842.40	16.81	0.018	0.022	WINTER DESIGN DAY IN SANTA MARIA	7/15 24:00:00	18.00	18.00	0.00683	7.50	0.00644	0.000	0.00
+	BLOCK1:ZONE6	23068.52	27682.22	1981.28	0.595	0.714	WINTER DESIGN DAY IN SANTA MARIA	7/15 24:00:00	18.00	17.98	0.00682	7.50	0.00644	0.000	0.00
+	BLOCK6:ZONE1	142742.49	171290.99	9668.06	3.679	4.415	WINTER DESIGN DAY IN SANTA MARIA	7/15 24:00:00	18.00	17.98	0.00682	7.50	0.00644	0.000	0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+System Design Air Flow Rates
+
+		Calculated cooling [m3/s]	User cooling [m3/s]	Calculated heating [m3/s]	User heating [m3/s]
+	BLOCK1:ZONE3 AHU	171411.21	171411.21	0.00	0.00
+	BLOCK1:ZONE7 AHU	0.22	0.22	0.02	0.02
+	BLOCK1:ZONE6 AHU	0.01	0.01	0.71	0.71
+	BLOCK6:ZONE1 AHU	0.16	0.16	4.42	4.42
+
+
+Plant Loop Coincident Design Fluid Flow Rate Adjustments
+
+		Previous Design Volume Flow Rate [m3/s]	Algorithm Volume Flow Rate [m3/s]	Coincident Design Volume Flow Rate [m3/s]	Coincident Size Adjusted	Peak Sizing Period Name	Peak Day into Period {TIMESTAMP}[day]	Peak Hour Of Day {TIMESTAMP}[hr]	Peak Step Start Minute {TIMESTAMP}[min]
+	None								
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	System Summary
+FOR:	Entire Facility
+Economizer
+
+		High Limit Shutoff Control	Minimum Outdoor Air [m3/s]	Maximum Outdoor Air [m3/s]	Return Air Temp Limit	Return Air Enthalpy Limit	Outdoor Air Temperature Limit [C]	Outdoor Air Enthalpy Limit [C]
+	None							
+
+
+Demand Controlled Ventilation using Controller:MechanicalVentilation
+
+		Controller:MechanicalVentilation Name	Outdoor Air Per Person [m3/s-person]	Outdoor Air Per Area [m3/s-m2]	Outdoor Air Per Zone [m3/s]	Outdoor Air ACH [ach]	Outdoor Air Method	Outdoor Air Schedule Name	Air Distribution Effectiveness in Cooling Mode	Air Distribution Effectiveness in Heating Mode	Air Distribution Effectiveness Schedule Name
+	None										
+
+
+Time Not Comfortable Based on Simple ASHRAE 55-2004
+
+		Winter Clothes [hr]	Summer Clothes [hr]	Summer or Winter Clothes [hr]
+	BLOCK1:ZONE3	3114.00	4020.00	2868.00
+	BLOCK1:ZONE7	2537.00	2697.00	2149.00
+	BLOCK1:ZONE6	3090.00	3928.00	2748.00
+	BLOCK6:ZONE1	0.00	0.00	0.00
+	BLOCK5:ZONE1	0.00	0.00	0.00
+	BLOCK1:ZONE4	0.00	0.00	0.00
+	BLOCK1:ZONE5	0.00	0.00	0.00
+	BLOCK1:ZONE1	0.00	0.00	0.00
+	BLOCK1:ZONE2	0.00	0.00	0.00
+	BLOCK3:ZONE1	0.00	0.00	0.00
+	BLOCK2:ZONE1	0.00	0.00	0.00
+	Facility	5324.00	6319.00	4715.00
+Aggregated over the RunPeriods for Weather
+
+
+Time Setpoint Not Met
+
+		During Heating [hr]	During Cooling [hr]	During Occupied Heating [hr]	During Occupied Cooling [hr]
+	BLOCK1:ZONE3	0.00	8760.00	0.00	4330.00
+	BLOCK1:ZONE7	1770.00	534.00	457.00	390.00
+	BLOCK1:ZONE6	0.00	2.00	0.00	1.00
+	BLOCK6:ZONE1	1114.00	1812.00	0.00	0.00
+	BLOCK5:ZONE1	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE4	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE5	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE1	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE2	0.00	0.00	0.00	0.00
+	BLOCK3:ZONE1	0.00	0.00	0.00	0.00
+	BLOCK2:ZONE1	0.00	0.00	0.00	0.00
+	Facility	1783.00	8760.00	457.00	4700.00
+Aggregated over the RunPeriods for Weather
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Outdoor Air Summary
+FOR:	Entire Facility
+Average Outdoor Air During Occupied Hours
+
+		Average Number of Occupants	Nominal Number of Occupants	Zone Volume [m3]	Mechanical Ventilation [ach]	Infiltration [ach]	AFN Infiltration [ach]	Simple Ventilation [ach]
+	BLOCK1:ZONE3	1.81	1.90	47.60	0.000	0.000	9.479	0.000
+	BLOCK1:ZONE7	1.96	4.01	151.20	0.000	0.000	13.593	0.000
+	BLOCK1:ZONE6	1.86	1.96	41.92	0.000	0.000	10.523	0.000
+Values shown for a single zone without multipliers
+
+
+Minimum Outdoor Air During Occupied Hours
+
+		Average Number of Occupants	Nominal Number of Occupants	Zone Volume [m3]	Mechanical Ventilation [ach]	Infiltration [ach]	AFN Infiltration [ach]	Simple Ventilation [ach]
+	BLOCK1:ZONE3	1.81	1.90	47.60	0.000	0.000	0.000	0.000
+	BLOCK1:ZONE7	1.96	4.01	151.20	0.000	0.000	0.000	0.000
+	BLOCK1:ZONE6	1.86	1.96	41.92	0.000	0.000	0.000	0.000
+Values shown for a single zone without multipliers
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Object Count Summary
+FOR:	Entire Facility
+Surfaces by Class
+
+		Total	Outdoors
+	Wall	112	80
+	Floor	63	20
+	Roof	52	9
+	Internal Mass	1	0
+	Building Detached Shading	260	260
+	Fixed Detached Shading	0	0
+	Window	21	15
+	Door	32	6
+	Glass Door	0	0
+	Shading	0	0
+	Overhang	0	0
+	Fin	0	0
+	Tubular Daylighting Device Dome	0	0
+	Tubular Daylighting Device Diffuser	0	0
+
+
+HVAC
+
+		Count
+	HVAC Air Loops	4
+	Conditioned Zones	4
+	Unconditioned Zones	7
+	Supply Plenums	0
+	Return Plenums	0
+
+
+Input Fields
+
+		Count
+	IDF Objects	1530
+	Defaulted Fields	288
+	Fields with Defaults	4022
+	Autosized Fields	60
+	Autosizable Fields	72
+	Autocalculated Fields	22
+	Autocalculatable Fields	734
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Sensible Heat Gain Summary
+FOR:	Entire Facility
+Annual Building Sensible Heat Gain Components
+
+		HVAC Zone Eq & Other Sensible Air Heating [kWh]	HVAC Zone Eq & Other Sensible Air Cooling [kWh]	HVAC Terminal Unit Sensible Air Heating [kWh]	HVAC Terminal Unit Sensible Air Cooling [kWh]	HVAC Input Heated Surface Heating [kWh]	HVAC Input Cooled Surface Cooling [kWh]	People Sensible Heat Addition [kWh]	Lights Sensible Heat Addition [kWh]	Equipment Sensible Heat Addition [kWh]	Window Heat Addition [kWh]	Interzone Air Transfer Heat Addition [kWh]	Infiltration Heat Addition [kWh]	Opaque Surface Conduction and Other Heat Addition [kWh]	Equipment Sensible Heat Removal [kWh]	Window Heat Removal [kWh]	Interzone Air Transfer Heat Removal [kWh]	Infiltration Heat Removal [kWh]	Opaque Surface Conduction and Other Heat Removal [kWh]
+	BLOCK1:ZONE3	0.000	0.000	0.000	0.000	0.000	0.000	527.988	3160.452	0.000	239.530	54.835	2.485	0.012	0.000	-174.13	-312.69	-2506.32	-992.15
+	BLOCK1:ZONE7	0.000	0.000	1947.454	-3908.59	0.000	0.000	380.174	6293.791	878.087	1486.152	6115.834	546.666	466.653	0.000	-438.43	-597.78	-13170.01	-0.24
+	BLOCK1:ZONE6	0.000	0.000	557.466	-408.13	0.000	0.000	549.476	2728.234	0.000	241.034	114.926	2.398	0.017	0.000	-174.04	-254.07	-2705.70	-651.59
+	BLOCK6:ZONE1	0.000	0.000	3856.244	-0.79	0.000	0.000	0.000	2603.326	0.000	1558.065	385.555	208.868	1178.052	0.000	-875.03	-4205.43	-4708.86	0.000
+	BLOCK5:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	35.268	19.060	1305.824	0.000	0.000	-7.37	-1352.79	0.000
+	BLOCK1:ZONE4	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	217.065	85.586	1.570	22.560	0.000	-26.14	-146.63	-154.01	-0.01
+	BLOCK1:ZONE5	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	8283.232	7.779	1.104	0.058	0.000	-1523.72	-3067.53	-68.03	-3632.83
+	BLOCK1:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	410.142	111.212	9.592	65.602	0.000	-100.55	-229.67	-266.33	-0.00
+	BLOCK1:ZONE2	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	452.782	0.179	304.010	0.000	0.000	-748.43	-8.54	0.000
+	BLOCK3:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	1910.206	0.000	1136.752	281.124	0.513	1758.652	0.000	-161.85	-1714.50	-3210.89	-0.10
+	BLOCK2:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	3724.429	8.024	0.001	0.041	0.000	-1485.70	-674.61	-10.06	-1562.08
+	Total Facility	0.000	0.000	6361.165	-4317.51	0.000	0.000	1457.638	16696.009	878.087	17296.400	7652.925	792.436	5101.480	0.000	-4959.61	-11958.70	-28161.54	-6839.00
+
+
+Peak Cooling Sensible Heat Gain Components
+
+		Time of Peak {TIMESTAMP}	HVAC Zone Eq & Other Sensible Air Heating [W]	HVAC Zone Eq & Other Sensible Air Cooling [W]	HVAC Terminal Unit Sensible Air Heating [W]	HVAC Terminal Unit Sensible Air Cooling [W]	HVAC Input Heated Surface Heating [W]	HVAC Input Cooled Surface Cooling [W]	People Sensible Heat Addition [W]	Lights Sensible Heat Addition [W]	Equipment Sensible Heat Addition [W]	Window Heat Addition [W]	Interzone Air Transfer Heat Addition [W]	Infiltration Heat Addition [W]	Opaque Surface Conduction and Other Heat Addition [W]	Equipment Sensible Heat Removal [W]	Window Heat Removal [W]	Interzone Air Transfer Heat Removal [W]	Infiltration Heat Removal [W]	Opaque Surface Conduction and Other Heat Removal [W]
+	BLOCK1:ZONE3	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE7	10-OCT-14:10	0.00	0.00	0.00	-5348.06	0.00	0.00	43.32	0.00	100.24	735.31	9025.71	1.25	0.00	0.00	-0.00	0.00	0.00	-4557.78
+	BLOCK1:ZONE6	03-NOV-16:07	0.00	0.00	0.00	-1664.87	0.00	0.00	0.00	300.63	0.00	47.54	1042.23	0.00	274.47	0.00	-0.00	0.00	0.00	0.00
+	BLOCK6:ZONE1	14-JUN-01:09	0.00	0.00	0.00	-1410.79	0.00	0.00	0.00	442.93	0.00	15.79	1237.42	287.49	0.00	0.00	-0.00	0.00	0.00	-572.84
+	BLOCK5:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE4	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE5	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE2	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK3:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK2:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Total Facility	10-OCT-14:10	0.00	0.00	0.00	-5348.06	0.00	0.00	43.32	1161.34	100.24	6165.44	11134.20	1657.16	0.00	0.00	0.00	-5388.90	0.00	-9524.75
+
+
+Peak Heating Sensible Heat Gain Components
+
+		Time of Peak {TIMESTAMP}	HVAC Zone Eq & Other Sensible Air Heating [W]	HVAC Zone Eq & Other Sensible Air Cooling [W]	HVAC Terminal Unit Sensible Air Heating [W]	HVAC Terminal Unit Sensible Air Cooling [W]	HVAC Input Heated Surface Heating [W]	HVAC Input Cooled Surface Cooling [W]	People Sensible Heat Addition [W]	Lights Sensible Heat Addition [W]	Equipment Sensible Heat Addition [W]	Window Heat Addition [W]	Interzone Air Transfer Heat Addition [W]	Infiltration Heat Addition [W]	Opaque Surface Conduction and Other Heat Addition [W]	Equipment Sensible Heat Removal [W]	Window Heat Removal [W]	Interzone Air Transfer Heat Removal [W]	Infiltration Heat Removal [W]	Opaque Surface Conduction and Other Heat Removal [W]
+	BLOCK1:ZONE3	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE7	22-MAY-16:02	0.00	0.00	1628.51	0.00	0.00	0.00	91.15	0.00	100.24	351.87	7635.02	0.00	6779.49	0.00	-0.00	0.00	-16586.28	0.00
+	BLOCK1:ZONE6	21-JUN-06:45	0.00	0.00	8594.29	0.00	0.00	0.00	142.60	349.30	0.00	0.00	3.05	0.00	0.00	0.00	-135.31	0.00	-7747.44	-1206.48
+	BLOCK6:ZONE1	22-MAY-16:04	0.00	0.00	10868.61	0.00	0.00	0.00	0.00	0.00	0.00	273.86	0.00	0.00	2099.98	0.00	-0.00	-5054.03	-8188.42	0.00
+	BLOCK5:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE4	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE5	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK1:ZONE2	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK3:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	BLOCK2:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Total Facility	22-MAY-16:04	0.00	0.00	12180.26	0.00	0.00	0.00	91.15	1512.97	100.24	2370.41	6227.23	0.00	2412.96	0.00	-393.33	-8037.15	-16464.74	0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:	Component Sizing Summary
+FOR:	Entire Facility
+AirTerminal:SingleDuct:Uncontrolled
+
+		Design Size Maximum Air Flow Rate [m3/s]
+	BLOCK1:ZONE3 AIR TERMINAL	171411.21
+	BLOCK1:ZONE7 AIR TERMINAL	0.223769
+	BLOCK1:ZONE6 AIR TERMINAL	0.713553
+	BLOCK6:ZONE1 AIR TERMINAL	4.42
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirLoopHVAC
+
+		Design Supply Air Flow Rate [m3/s]
+	BLOCK1:ZONE3 AHU	171411.21
+	BLOCK1:ZONE7 AHU	0.223769
+	BLOCK1:ZONE6 AHU	0.713553
+	BLOCK6:ZONE1 AHU	4.42
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Controller:OutdoorAir
+
+		Maximum Outdoor Air Flow Rate [m3/s]	Minimum Outdoor Air Flow Rate [m3/s]
+	BLOCK1:ZONE3 AHU OA CONTROLLER	171411.21	0.000000
+	BLOCK1:ZONE7 AHU OA CONTROLLER	0.223769	0.000000
+	BLOCK1:ZONE6 AHU OA CONTROLLER	0.713553	0.000000
+	BLOCK6:ZONE1 AHU OA CONTROLLER	4.42	0.000000
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Cooling:DX:SingleSpeed
+
+		Design Size Rated Air Flow Rate [m3/s]	Design Size Gross Rated Total Cooling Capacity [W]	Design Size Gross Rated Sensible Heat Ratio
+	BLOCK1:ZONE3 AHU COOLING COIL	171411.21	0.283746E+10	0.798655
+	BLOCK1:ZONE7 AHU COOLING COIL	0.223769	5556.72	0.676083
+	BLOCK1:ZONE6 AHU COOLING COIL	0.713553	12719.73	0.772413
+	BLOCK6:ZONE1 AHU COOLING COIL	4.42	74845.46	0.790016
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirLoopHVAC:Unitary:Furnace:HeatCool
+
+		Supply Air Flow Rate [m3/s]	Supply Air Flow Rate During Heating Operation [m3/s]	Supply Air Flow Rate During Cooling Operation [m3/s]	Supply Air Flow Rate When No Cooling or Heating is Needed [m3/s]	Nominal Heating Capacity [W]	Nominal Cooling Capacity [W]	Fraction of Supply Air Flow That Goes Through the Controlling Zone
+	BLOCK1:ZONE3 AHU FURNACE WITH DX COOLING	171411.21	171411.21	171411.21	171411.21	0.000000	0.283746E+10	1.00
+	BLOCK1:ZONE7 AHU FURNACE WITH DX COOLING	0.223769	0.223769	0.223769	0.223769	830.13	5556.72	1.00
+	BLOCK1:ZONE6 AHU FURNACE WITH DX COOLING	0.713553	0.713553	0.713553	0.713553	27279.00	12719.73	1.00
+	BLOCK6:ZONE1 AHU FURNACE WITH DX COOLING	4.42	4.42	4.42	4.42	168795.99	74845.46	1.00
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Fan:OnOff
+
+		Design Size Maximum Flow Rate [m3/s]
+	BLOCK1:ZONE3 AHU SUPPLY FAN	171411.21
+	BLOCK1:ZONE7 AHU SUPPLY FAN	0.223769
+	BLOCK1:ZONE6 AHU SUPPLY FAN	0.713553
+	BLOCK6:ZONE1 AHU SUPPLY FAN	4.42
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:Electric
+
+		Design Size Nominal Capacity [W]
+	BLOCK1:ZONE3 AHU HEATING COIL	0.000000
+	BLOCK1:ZONE7 AHU HEATING COIL	830.13
+	BLOCK1:ZONE6 AHU HEATING COIL	27279.00
+	BLOCK6:ZONE1 AHU HEATING COIL	168795.99
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
