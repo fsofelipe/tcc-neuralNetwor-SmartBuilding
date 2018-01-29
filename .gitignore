@@ -9,12 +9,13 @@ v4/
 v5/
 v6/
 v7/
+v8/Selected/
 v8/ePlus/*
 !v8/ePlus/SmOffPSZ.idf
 !v8/ePlus/SmOffPSZ_sim_rede.idf
 !v8/ePlus/variables.cfg
 !v8/ePlus/variables_sim_rede.cfg
-
 Simulador/ePlus/*
 !Simulador/ePlus/SmOffPSZ.idf
 !Simulador/ePlus/variables.cfg
+v9/Selected/
