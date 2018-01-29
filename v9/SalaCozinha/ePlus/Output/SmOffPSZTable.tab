@@ -1,4 +1,4 @@
-Program Version	EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.28 19:03
+Program Version	EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.29 20:43
 Tabular Output Report in Format: 	Tab
 
 Building:	Building
@@ -12,10 +12,10 @@ Values gathered over      8760.00 hours
 Site and Source Energy
 
 		Total Energy [kWh]	Energy Per Total Building Area [kWh/m2]	Energy Per Conditioned Building Area [kWh/m2]
-	Total Site Energy	28017.87	96.43	286.85
-	Net Site Energy	28017.87	96.43	286.85
-	Total Source Energy	88732.60	305.40	908.45
-	Net Source Energy	88732.60	305.40	908.45
+	Total Site Energy	30327.83	104.38	310.50
+	Net Site Energy	30327.83	104.38	310.50
+	Total Source Energy	96048.23	330.58	983.35
+	Net Source Energy	96048.23	330.58	983.35
 
 
 Site to Source Energy Conversion Factors
@@ -47,13 +47,13 @@ Building Area
 End Uses
 
 		Electricity [kWh]	Natural Gas [kWh]	Additional Fuel [kWh]	District Cooling [kWh]	District Heating [kWh]	Water [m3]
-	Heating	2227.48	0.00	0.00	0.00	0.00	0.00
-	Cooling	4006.83	0.00	0.00	0.00	0.00	0.00
+	Heating	2536.92	0.00	0.00	0.00	0.00	0.00
+	Cooling	4056.29	0.00	0.00	0.00	0.00	0.00
 	Interior Lighting	16696.00	0.00	0.00	0.00	0.00	0.00
 	Exterior Lighting	0.00	0.00	0.00	0.00	0.00	0.00
 	Interior Equipment	878.09	0.00	0.00	0.00	0.00	0.00
 	Exterior Equipment	0.00	0.00	0.00	0.00	0.00	0.00
-	Fans	4209.48	0.00	0.00	0.00	0.00	0.00
+	Fans	6160.54	0.00	0.00	0.00	0.00	0.00
 	Pumps	0.00	0.00	0.00	0.00	0.00	0.00
 	Heat Rejection	0.00	0.00	0.00	0.00	0.00	0.00
 	Humidification	0.00	0.00	0.00	0.00	0.00	0.00
@@ -62,15 +62,15 @@ End Uses
 	Refrigeration	0.00	0.00	0.00	0.00	0.00	0.00
 	Generators	0.00	0.00	0.00	0.00	0.00	0.00
 							
-	Total End Uses	28017.87	0.00	0.00	0.00	0.00	0.00
+	Total End Uses	30327.83	0.00	0.00	0.00	0.00	0.00
 Note: Electricity appears to be the principal heating source based on energy usage.
 
 
 End Uses By Subcategory
 
 		Subcategory	Electricity [kWh]	Natural Gas [kWh]	Additional Fuel [kWh]	District Cooling [kWh]	District Heating [kWh]	Water [m3]
-	Heating	General	2227.48	0.00	0.00	0.00	0.00	0.00
-	Cooling	General	4006.83	0.00	0.00	0.00	0.00	0.00
+	Heating	General	2536.92	0.00	0.00	0.00	0.00	0.00
+	Cooling	General	4056.29	0.00	0.00	0.00	0.00	0.00
 	Interior Lighting	ELECTRIC EQUIPMENT#Block1:Zone3#GeneralLights	3160.45	0.00	0.00	0.00	0.00	0.00
 		ELECTRIC EQUIPMENT#Block1:Zone7#GeneralLights	6293.79	0.00	0.00	0.00	0.00	0.00
 		ELECTRIC EQUIPMENT#Block1:Zone6#GeneralLights	2728.23	0.00	0.00	0.00	0.00	0.00
@@ -79,7 +79,7 @@ End Uses By Subcategory
 	Exterior Lighting	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Interior Equipment	ELECTRIC EQUIPMENT#Block1:Zone7#02	878.09	0.00	0.00	0.00	0.00	0.00
 	Exterior Equipment	General	0.00	0.00	0.00	0.00	0.00	0.00
-	Fans	General	4209.48	0.00	0.00	0.00	0.00	0.00
+	Fans	General	6160.54	0.00	0.00	0.00	0.00	0.00
 	Pumps	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Heat Rejection	General	0.00	0.00	0.00	0.00	0.00	0.00
 	Humidification	General	0.00	0.00	0.00	0.00	0.00	0.00
@@ -94,18 +94,18 @@ Utility Use Per Conditioned Floor Area
 
 		Electricity Intensity [kWh/m2]	Natural Gas Intensity [kWh/m2]	Additional Fuel Intensity [kWh/m2]	District Cooling Intensity [kWh/m2]	District Heating Intensity [kWh/m2]	Water Intensity [m3/m2]
 	Lighting	170.94	0.00	0.00	0.00	0.00	0.00
-	HVAC	106.92	0.00	0.00	0.00	0.00	0.00
+	HVAC	130.57	0.00	0.00	0.00	0.00	0.00
 	Other	8.99	0.00	0.00	0.00	0.00	0.00
-	Total	286.85	0.00	0.00	0.00	0.00	0.00
+	Total	310.50	0.00	0.00	0.00	0.00	0.00
 
 
 Utility Use Per Total Floor Area
 
 		Electricity Intensity [kWh/m2]	Natural Gas Intensity [kWh/m2]	Additional Fuel Intensity [kWh/m2]	District Cooling Intensity [kWh/m2]	District Heating Intensity [kWh/m2]	Water Intensity [m3/m2]
 	Lighting	57.46	0.00	0.00	0.00	0.00	0.00
-	HVAC	35.95	0.00	0.00	0.00	0.00	0.00
+	HVAC	43.90	0.00	0.00	0.00	0.00	0.00
 	Other	3.02	0.00	0.00	0.00	0.00	0.00
-	Total	96.43	0.00	0.00	0.00	0.00	0.00
+	Total	104.38	0.00	0.00	0.00	0.00	0.00
 
 
 Electric Loads Satisfied
@@ -119,12 +119,12 @@ Electric Loads Satisfied
 	Net Decrease in On-Site Storage	0.000	0.00
 	Total On-Site Electric Sources	0.000	0.00
 			
-	Electricity Coming From Utility	28017.871	100.00
+	Electricity Coming From Utility	30327.828	100.00
 	Surplus Electricity Going To Utility	0.000	0.00
-	Net Electricity From Utility	28017.871	100.00
+	Net Electricity From Utility	30327.828	100.00
 			
-	Total On-Site and Utility Electric Sources	28017.871	100.00
-	Total Electricity End Uses	28017.871	100.00
+	Total On-Site and Utility Electric Sources	30327.828	100.00
+	Total Electricity End Uses	30327.828	100.00
 
 
 On-Site Thermal Sources
@@ -167,9 +167,9 @@ Setpoint Not Met Criteria
 Comfort and Setpoint Not Met Summary
 
 		Facility [Hours]
-	Time Setpoint Not Met During Occupied Heating	457.00
-	Time Setpoint Not Met During Occupied Cooling	4700.00
-	Time Not Comfortable Based on Simple ASHRAE 55-2004	4715.00
+	Time Setpoint Not Met During Occupied Heating	576.00
+	Time Setpoint Not Met During Occupied Cooling	4785.00
+	Time Not Comfortable Based on Simple ASHRAE 55-2004	4833.00
 
 
 Note 1: An asterisk (*) indicates that the feature is not yet implemented.
@@ -179,7 +179,7 @@ FOR:	Entire Facility
 General
 
 		Value
-	Program Version and Build	EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.28 19:03
+	Program Version and Build	EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.29 20:43
 	RunPeriod	SANTA MARIA
 	Weather File	SANTA_MARIA - BRA SWERA WMO#=839360
 	Latitude [deg]	-29.7
@@ -579,9 +579,9 @@ Demand Controlled Ventilation using Controller:MechanicalVentilation
 Time Not Comfortable Based on Simple ASHRAE 55-2004
 
 		Winter Clothes [hr]	Summer Clothes [hr]	Summer or Winter Clothes [hr]
-	BLOCK1:ZONE3	3114.00	4020.00	2868.00
-	BLOCK1:ZONE7	2537.00	2697.00	2149.00
-	BLOCK1:ZONE6	3090.00	3928.00	2748.00
+	BLOCK1:ZONE3	3136.00	4030.00	2893.00
+	BLOCK1:ZONE7	2609.00	2719.00	2251.00
+	BLOCK1:ZONE6	3089.00	3943.00	2771.00
 	BLOCK6:ZONE1	0.00	0.00	0.00
 	BLOCK5:ZONE1	0.00	0.00	0.00
 	BLOCK1:ZONE4	0.00	0.00	0.00
@@ -590,7 +590,7 @@ Time Not Comfortable Based on Simple ASHRAE 55-2004
 	BLOCK1:ZONE2	0.00	0.00	0.00
 	BLOCK3:ZONE1	0.00	0.00	0.00
 	BLOCK2:ZONE1	0.00	0.00	0.00
-	Facility	5324.00	6319.00	4715.00
+	Facility	5409.00	6348.00	4833.00
 Aggregated over the RunPeriods for Weather
 
 
@@ -598,9 +598,9 @@ Time Setpoint Not Met
 
 		During Heating [hr]	During Cooling [hr]	During Occupied Heating [hr]	During Occupied Cooling [hr]
 	BLOCK1:ZONE3	0.00	8760.00	0.00	4330.00
-	BLOCK1:ZONE7	1770.00	534.00	457.00	390.00
-	BLOCK1:ZONE6	0.00	2.00	0.00	1.00
-	BLOCK6:ZONE1	1114.00	1812.00	0.00	0.00
+	BLOCK1:ZONE7	2324.00	677.00	576.00	480.00
+	BLOCK1:ZONE6	0.00	1.00	0.00	1.00
+	BLOCK6:ZONE1	1928.00	1500.00	0.00	0.00
 	BLOCK5:ZONE1	0.00	0.00	0.00	0.00
 	BLOCK1:ZONE4	0.00	0.00	0.00	0.00
 	BLOCK1:ZONE5	0.00	0.00	0.00	0.00
@@ -608,7 +608,7 @@ Time Setpoint Not Met
 	BLOCK1:ZONE2	0.00	0.00	0.00	0.00
 	BLOCK3:ZONE1	0.00	0.00	0.00	0.00
 	BLOCK2:ZONE1	0.00	0.00	0.00	0.00
-	Facility	1783.00	8760.00	457.00	4700.00
+	Facility	2353.00	8760.00	576.00	4785.00
 Aggregated over the RunPeriods for Weather
 
 
@@ -618,9 +618,9 @@ FOR:	Entire Facility
 Average Outdoor Air During Occupied Hours
 
 		Average Number of Occupants	Nominal Number of Occupants	Zone Volume [m3]	Mechanical Ventilation [ach]	Infiltration [ach]	AFN Infiltration [ach]	Simple Ventilation [ach]
-	BLOCK1:ZONE3	1.81	1.90	47.60	0.000	0.000	9.479	0.000
-	BLOCK1:ZONE7	1.96	4.01	151.20	0.000	0.000	13.593	0.000
-	BLOCK1:ZONE6	1.86	1.96	41.92	0.000	0.000	10.523	0.000
+	BLOCK1:ZONE3	1.81	1.90	47.60	0.000	0.000	9.565	0.000
+	BLOCK1:ZONE7	1.96	4.01	151.20	0.000	0.000	20.251	0.000
+	BLOCK1:ZONE6	1.86	1.96	41.92	0.000	0.000	10.488	0.000
 Values shown for a single zone without multipliers
 
 
@@ -683,27 +683,27 @@ FOR:	Entire Facility
 Annual Building Sensible Heat Gain Components
 
 		HVAC Zone Eq & Other Sensible Air Heating [kWh]	HVAC Zone Eq & Other Sensible Air Cooling [kWh]	HVAC Terminal Unit Sensible Air Heating [kWh]	HVAC Terminal Unit Sensible Air Cooling [kWh]	HVAC Input Heated Surface Heating [kWh]	HVAC Input Cooled Surface Cooling [kWh]	People Sensible Heat Addition [kWh]	Lights Sensible Heat Addition [kWh]	Equipment Sensible Heat Addition [kWh]	Window Heat Addition [kWh]	Interzone Air Transfer Heat Addition [kWh]	Infiltration Heat Addition [kWh]	Opaque Surface Conduction and Other Heat Addition [kWh]	Equipment Sensible Heat Removal [kWh]	Window Heat Removal [kWh]	Interzone Air Transfer Heat Removal [kWh]	Infiltration Heat Removal [kWh]	Opaque Surface Conduction and Other Heat Removal [kWh]
-	BLOCK1:ZONE3	0.000	0.000	0.000	0.000	0.000	0.000	527.988	3160.452	0.000	239.530	54.835	2.485	0.012	0.000	-174.13	-312.69	-2506.32	-992.15
-	BLOCK1:ZONE7	0.000	0.000	1947.454	-3908.59	0.000	0.000	380.174	6293.791	878.087	1486.152	6115.834	546.666	466.653	0.000	-438.43	-597.78	-13170.01	-0.24
-	BLOCK1:ZONE6	0.000	0.000	557.466	-408.13	0.000	0.000	549.476	2728.234	0.000	241.034	114.926	2.398	0.017	0.000	-174.04	-254.07	-2705.70	-651.59
-	BLOCK6:ZONE1	0.000	0.000	3856.244	-0.79	0.000	0.000	0.000	2603.326	0.000	1558.065	385.555	208.868	1178.052	0.000	-875.03	-4205.43	-4708.86	0.000
-	BLOCK5:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	35.268	19.060	1305.824	0.000	0.000	-7.37	-1352.79	0.000
-	BLOCK1:ZONE4	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	217.065	85.586	1.570	22.560	0.000	-26.14	-146.63	-154.01	-0.01
-	BLOCK1:ZONE5	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	8283.232	7.779	1.104	0.058	0.000	-1523.72	-3067.53	-68.03	-3632.83
-	BLOCK1:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	410.142	111.212	9.592	65.602	0.000	-100.55	-229.67	-266.33	-0.00
-	BLOCK1:ZONE2	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	452.782	0.179	304.010	0.000	0.000	-748.43	-8.54	0.000
-	BLOCK3:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	1910.206	0.000	1136.752	281.124	0.513	1758.652	0.000	-161.85	-1714.50	-3210.89	-0.10
-	BLOCK2:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	3724.429	8.024	0.001	0.041	0.000	-1485.70	-674.61	-10.06	-1562.08
-	Total Facility	0.000	0.000	6361.165	-4317.51	0.000	0.000	1457.638	16696.009	878.087	17296.400	7652.925	792.436	5101.480	0.000	-4959.61	-11958.70	-28161.54	-6839.00
+	BLOCK1:ZONE3	0.000	0.000	0.000	0.000	0.000	0.000	528.294	3160.452	0.000	241.006	48.237	2.365	0.006	0.000	-172.44	-313.29	-2471.74	-1022.89
+	BLOCK1:ZONE7	0.000	0.000	2384.917	-4001.67	0.000	0.000	383.418	6293.791	878.087	1525.151	8130.595	713.905	793.160	0.000	-385.89	-617.62	-16097.85	-0.04
+	BLOCK1:ZONE6	0.000	0.000	489.257	-394.63	0.000	0.000	549.719	2728.234	0.000	243.818	105.068	2.185	0.007	0.000	-170.48	-284.22	-2536.73	-732.22
+	BLOCK6:ZONE1	0.000	0.000	5847.816	-3.45	0.000	0.000	0.000	2603.326	0.000	1637.304	386.436	295.750	1712.070	0.000	-753.76	-5456.44	-6269.05	0.000
+	BLOCK5:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	33.776	19.302	1201.669	0.000	0.000	-14.51	-1240.24	0.000
+	BLOCK1:ZONE4	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	217.522	73.357	1.645	42.041	0.000	-25.57	-164.94	-144.05	-0.01
+	BLOCK1:ZONE5	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	8416.948	10.677	1.092	0.029	0.000	-1378.21	-3574.06	-43.24	-3433.21
+	BLOCK1:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	417.363	138.329	10.211	96.655	0.000	-90.62	-365.81	-206.14	-0.03
+	BLOCK1:ZONE2	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	538.967	0.175	354.749	0.000	0.000	-887.14	-6.75	0.000
+	BLOCK3:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	1910.206	0.000	1140.361	219.207	0.566	1812.995	0.000	-158.28	-1852.72	-3072.34	-0.05
+	BLOCK2:ZONE1	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	3741.048	2.430	0.001	0.032	0.000	-1464.86	-601.25	-9.72	-1667.65
+	Total Facility	0.000	0.000	8721.990	-4399.75	0.000	0.000	1461.432	16696.009	878.087	17580.520	9687.081	1047.198	6013.414	0.000	-4600.11	-14132.00	-32097.83	-6856.11
 
 
 Peak Cooling Sensible Heat Gain Components
 
 		Time of Peak {TIMESTAMP}	HVAC Zone Eq & Other Sensible Air Heating [W]	HVAC Zone Eq & Other Sensible Air Cooling [W]	HVAC Terminal Unit Sensible Air Heating [W]	HVAC Terminal Unit Sensible Air Cooling [W]	HVAC Input Heated Surface Heating [W]	HVAC Input Cooled Surface Cooling [W]	People Sensible Heat Addition [W]	Lights Sensible Heat Addition [W]	Equipment Sensible Heat Addition [W]	Window Heat Addition [W]	Interzone Air Transfer Heat Addition [W]	Infiltration Heat Addition [W]	Opaque Surface Conduction and Other Heat Addition [W]	Equipment Sensible Heat Removal [W]	Window Heat Removal [W]	Interzone Air Transfer Heat Removal [W]	Infiltration Heat Removal [W]	Opaque Surface Conduction and Other Heat Removal [W]
 	BLOCK1:ZONE3	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
-	BLOCK1:ZONE7	10-OCT-14:10	0.00	0.00	0.00	-5348.06	0.00	0.00	43.32	0.00	100.24	735.31	9025.71	1.25	0.00	0.00	-0.00	0.00	0.00	-4557.78
-	BLOCK1:ZONE6	03-NOV-16:07	0.00	0.00	0.00	-1664.87	0.00	0.00	0.00	300.63	0.00	47.54	1042.23	0.00	274.47	0.00	-0.00	0.00	0.00	0.00
-	BLOCK6:ZONE1	14-JUN-01:09	0.00	0.00	0.00	-1410.79	0.00	0.00	0.00	442.93	0.00	15.79	1237.42	287.49	0.00	0.00	-0.00	0.00	0.00	-572.84
+	BLOCK1:ZONE7	10-OCT-14:11	0.00	0.00	0.00	-5401.66	0.00	0.00	40.27	0.00	100.24	735.88	8519.82	0.94	0.00	0.00	-0.00	0.00	0.00	-3995.49
+	BLOCK1:ZONE6	26-JAN-19:13	0.00	0.00	0.00	-1516.25	0.00	0.00	55.87	349.30	0.00	0.00	668.70	0.00	455.61	0.00	-13.24	0.00	0.00	0.00
+	BLOCK6:ZONE1	02-AUG-08:12	0.00	0.00	0.00	-3161.27	0.00	0.00	0.00	355.27	0.00	0.00	2885.25	0.00	133.98	0.00	-5.95	0.00	-207.28	0.00
 	BLOCK5:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK1:ZONE4	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK1:ZONE5	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
@@ -711,16 +711,16 @@ Peak Cooling Sensible Heat Gain Components
 	BLOCK1:ZONE2	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK3:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK2:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
-	Total Facility	10-OCT-14:10	0.00	0.00	0.00	-5348.06	0.00	0.00	43.32	1161.34	100.24	6165.44	11134.20	1657.16	0.00	0.00	0.00	-5388.90	0.00	-9524.75
+	Total Facility	10-OCT-14:11	0.00	0.00	0.00	-5401.66	0.00	0.00	40.27	1161.34	100.24	6184.61	11421.16	2125.33	0.00	0.00	0.00	-5784.58	0.00	-9846.71
 
 
 Peak Heating Sensible Heat Gain Components
 
 		Time of Peak {TIMESTAMP}	HVAC Zone Eq & Other Sensible Air Heating [W]	HVAC Zone Eq & Other Sensible Air Cooling [W]	HVAC Terminal Unit Sensible Air Heating [W]	HVAC Terminal Unit Sensible Air Cooling [W]	HVAC Input Heated Surface Heating [W]	HVAC Input Cooled Surface Cooling [W]	People Sensible Heat Addition [W]	Lights Sensible Heat Addition [W]	Equipment Sensible Heat Addition [W]	Window Heat Addition [W]	Interzone Air Transfer Heat Addition [W]	Infiltration Heat Addition [W]	Opaque Surface Conduction and Other Heat Addition [W]	Equipment Sensible Heat Removal [W]	Window Heat Removal [W]	Interzone Air Transfer Heat Removal [W]	Infiltration Heat Removal [W]	Opaque Surface Conduction and Other Heat Removal [W]
 	BLOCK1:ZONE3	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
-	BLOCK1:ZONE7	22-MAY-16:02	0.00	0.00	1628.51	0.00	0.00	0.00	91.15	0.00	100.24	351.87	7635.02	0.00	6779.49	0.00	-0.00	0.00	-16586.28	0.00
-	BLOCK1:ZONE6	21-JUN-06:45	0.00	0.00	8594.29	0.00	0.00	0.00	142.60	349.30	0.00	0.00	3.05	0.00	0.00	0.00	-135.31	0.00	-7747.44	-1206.48
-	BLOCK6:ZONE1	22-MAY-16:04	0.00	0.00	10868.61	0.00	0.00	0.00	0.00	0.00	0.00	273.86	0.00	0.00	2099.98	0.00	-0.00	-5054.03	-8188.42	0.00
+	BLOCK1:ZONE7	08-AUG-08:05	0.00	0.00	1509.94	0.00	0.00	0.00	0.00	970.63	100.24	0.00	1931.22	0.00	3716.87	0.00	-73.38	0.00	-8155.51	0.00
+	BLOCK1:ZONE6	01-SEP-15:13	0.00	0.00	6155.98	0.00	0.00	0.00	0.00	321.59	0.00	0.00	0.00	0.00	0.00	0.00	-24.97	-9.73	-5132.95	-1309.93
+	BLOCK6:ZONE1	22-MAY-15:10	0.00	0.00	7321.31	0.00	0.00	0.00	0.00	0.00	0.00	704.05	0.00	0.00	220.09	0.00	-0.00	-4373.51	-3871.93	0.00
 	BLOCK5:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK1:ZONE4	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK1:ZONE5	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
@@ -728,7 +728,7 @@ Peak Heating Sensible Heat Gain Components
 	BLOCK1:ZONE2	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK3:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
 	BLOCK2:ZONE1	-	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
-	Total Facility	22-MAY-16:04	0.00	0.00	12180.26	0.00	0.00	0.00	91.15	1512.97	100.24	2370.41	6227.23	0.00	2412.96	0.00	-393.33	-8037.15	-16464.74	0.00
+	Total Facility	19-JUL-07:05	0.00	0.00	12273.33	0.00	0.00	0.00	0.00	3604.40	100.24	0.00	5650.50	0.00	10006.25	0.00	-1953.72	-8580.33	-21100.67	0.00
 
 
 ----------------------------------------------------------------------------------------------------

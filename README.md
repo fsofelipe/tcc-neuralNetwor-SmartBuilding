@@ -4,10 +4,10 @@ Orientador: Prof. Ms. Anderson Priebe Ferrugem<br>
 Coorientador: Prof. Dr. Antonio César Silveira Baptista da Silva<br>
 
 ## Arquivos
-**Aux** - Arquivos auxiliares: 
+**Aux** - Arquivos auxiliares:
   - Arquivos Climáticos: Santa Maria, Canguçu;
  - IDF's;
- - Arquivos de controle MATLAB;
+ - Arquivos de controle MATLAB; <br>
 **Simulador** - Arquivos responsáveis por gerar o dataset:
 
 **v8** - Arquivos de testes para a definição do modelo da rede neural:
