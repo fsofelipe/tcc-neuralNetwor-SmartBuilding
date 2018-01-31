@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.30 21:08,IDD_Version 8.7.0
+Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.30 22:17,IDD_Version 8.7.0
    ** Severe  ** IP: Potential errors in IDF processing -- see .audit file for details.
    ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
    **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
@@ -50,9 +50,9 @@ Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.30 21:08,IDD_V
    ** Warning ** More than 4% of time (350.4 hours) uncomfortable in one or more zones 
    **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)
    **   ~~~   ** During Environment [01/01 - 12/31]: SANTA MARIA
-   **   ~~~   ** 2880.0 hours were uncomfortable in zone: BLOCK1:ZONE3
-   **   ~~~   ** 2180.0 hours were uncomfortable in zone: BLOCK1:ZONE7
-   **   ~~~   ** 2765.0 hours were uncomfortable in zone: BLOCK1:ZONE6
+   **   ~~~   ** 2901.0 hours were uncomfortable in zone: BLOCK1:ZONE3
+   **   ~~~   ** 2250.0 hours were uncomfortable in zone: BLOCK1:ZONE7
+   **   ~~~   ** 2773.0 hours were uncomfortable in zone: BLOCK1:ZONE6
    ************* Simulation Error Summary *************
    ************* There are 1 unused objects in input.
    ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
@@ -86,4 +86,4 @@ Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.01.30 21:08,IDD_V
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 7 Warning; 1 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 16 Warning; 6 Severe Errors; Elapsed Time=00hr 07min 34.24sec
+   ************* EnergyPlus Completed Successfully-- 16 Warning; 6 Severe Errors; Elapsed Time=00hr 07min 50.71sec
