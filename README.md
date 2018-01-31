@@ -5,10 +5,15 @@ Coorientador: Prof. Dr. Antonio César Silveira Baptista da Silva<br>
 
 ## Arquivos
 **Aux** - Arquivos auxiliares:
-  - Arquivos Climáticos: Santa Maria, Canguçu;
+ - Arquivos Climáticos: Santa Maria, Canguçu;
  - IDF's;
  - Arquivos de controle MATLAB; <br>
+ 
 **Simulador** - Arquivos responsáveis por gerar o dataset:
+ - Tudo aberto;
+ - Tudo fechado;
+ - Aleatório;
+ - Sistema Especialista;
 
 **v8** - Arquivos de testes para a definição do modelo da rede neural:
   - NeuralNetwork_v01.ipynb: Arquivo que une a rede neural com o processo de simulação e gera o arquivo final;
