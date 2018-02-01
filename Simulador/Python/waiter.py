@@ -1,4 +1,4 @@
 import time
 import datetime
 print ("WAITER | " + str(datetime.datetime.now()))
-time.sleep(15) #substituir para 20
+time.sleep(1) #substituir para 20

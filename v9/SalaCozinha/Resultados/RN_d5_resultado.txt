@@ -5,3 +5,5 @@ Topologia: 04 | Conforto: 15.8333333333% | total: 1387
 Topologia: 05 | Conforto: 15.3652968037% | total: 1346
 Topologia: 06 | Conforto: 15.6735159817% | total: 1373
 Topologia: 07 | Conforto: 15.8904109589% | total: 1392
+
+SE artigo: 15.9589041096% | total: 1398
