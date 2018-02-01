@@ -1,9 +1,0 @@
-Topologia: 01 | Conforto: 15.9246575342% | total: 1395
-Topologia: 02 | Conforto: 15.8447488584% | total: 1388
-Topologia: 03 | Conforto: 16.0273972603% | total: 1404
-Topologia: 04 | Conforto: 15.8333333333% | total: 1387
-Topologia: 05 | Conforto: 15.3652968037% | total: 1346
-Topologia: 06 | Conforto: 15.6735159817% | total: 1373
-Topologia: 07 | Conforto: 15.8904109589% | total: 1392
-
-SE artigo: 15.9589041096% | total: 1398
