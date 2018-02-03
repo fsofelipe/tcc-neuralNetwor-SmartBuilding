@@ -35,7 +35,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Loop for simulation time steps.
 simulate = 1;
-tcp = tcpip('localhost', 50009);
+tcp = tcpip('localhost', 50023);
 fopen(tcp);
 
 while (simulate)

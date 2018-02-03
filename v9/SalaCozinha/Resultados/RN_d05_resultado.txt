@@ -1,3 +1,5 @@
+Resultados usando heurística: MELHORA SIGNIFICATIVA 10%
+
 Topologia: 01 | Conforto: 15.9246575342% | total: 1395
 Topologia: 02 | Conforto: 15.8447488584% | total: 1388
 Topologia: 03 | Conforto: 16.0273972603% | total: 1404
@@ -5,5 +7,14 @@ Topologia: 04 | Conforto: 15.8333333333% | total: 1387
 Topologia: 05 | Conforto: 15.3652968037% | total: 1346
 Topologia: 06 | Conforto: 15.6735159817% | total: 1373
 Topologia: 07 | Conforto: 15.8904109589% | total: 1392
+Topologia: 11 | Conforto: 15.7191780822% | total: 1377
+Topologia: 12 | Conforto: 14.3949771689% | total: 1261
+Topologia: 13 | Conforto: 16.301369863%  | total: 1428
 
-SE artigo: 15.9589041096% | total: 1398
+
+all0 | Conforto: 5.70776255708% | total: 500
+all1 | Conforto: 10.9474885845% | total: 959
+SE | Conforto: 7.97945205479% | total: 699
+
+
+SE artigo: 15.9589041096% | total: 1398 (como achei esse valor antes?)
