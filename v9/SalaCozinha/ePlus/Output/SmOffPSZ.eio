@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.02.04 17:22
+Program Version,EnergyPlus, Version 8.7.0-78a111df4a, YMD=2018.02.06 13:58
 ! <Version>, Version ID
  Version, 8.7
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -648,17 +648,17 @@ Environment,SANTA MARIA,WeatherFileRunPeriod,01/01,12/31,Sunday,365,UseWeatherFi
 Environment:Daylight Saving,Yes,InputFile,10/15,02/12
 Environment:WarmupDays,  6
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,BLOCK5:ZONE1,RunPeriod: SANTA MARIA,0.2276527116,0.1358773147,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK1:ZONE4,RunPeriod: SANTA MARIA,0.2878359603,0.2123820109,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK1:ZONE3,RunPeriod: SANTA MARIA,0.3085810240,0.2053518809,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK1:ZONE7,RunPeriod: SANTA MARIA,0.6101400139,0.8380555626,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK1:ZONE6,RunPeriod: SANTA MARIA,0.3295480071,0.1939291803,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK1:ZONE5,RunPeriod: SANTA MARIA,0.4675998719,0.6742697729,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK1:ZONE1,RunPeriod: SANTA MARIA,0.5148252208,0.6236722161,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK1:ZONE2,RunPeriod: SANTA MARIA,0.2745601653,0.1946888503,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK3:ZONE1,RunPeriod: SANTA MARIA,0.6780561382,0.4283010114,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK6:ZONE1,RunPeriod: SANTA MARIA,0.7044714540,1.0889791807,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,BLOCK2:ZONE1,RunPeriod: SANTA MARIA,1.4781727495,0.9725816393,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK5:ZONE1,RunPeriod: SANTA MARIA,0.2258761409,0.1367662689,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK1:ZONE4,RunPeriod: SANTA MARIA,0.2739649175,0.3089961583,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK1:ZONE3,RunPeriod: SANTA MARIA,0.3197935309,0.1927477735,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK1:ZONE7,RunPeriod: SANTA MARIA,0.6163774307,0.8143130786,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK1:ZONE6,RunPeriod: SANTA MARIA,0.3249416115,0.1929354788,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK1:ZONE5,RunPeriod: SANTA MARIA,0.4700106452,0.6535672609,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK1:ZONE1,RunPeriod: SANTA MARIA,0.5283650753,0.5803968428,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK1:ZONE2,RunPeriod: SANTA MARIA,0.2737328851,0.1827083458,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK3:ZONE1,RunPeriod: SANTA MARIA,0.6707690217,0.4195621255,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK6:ZONE1,RunPeriod: SANTA MARIA,0.6891077187,1.0718742620,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,BLOCK2:ZONE1,RunPeriod: SANTA MARIA,1.4805443475,0.9682045828,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data
