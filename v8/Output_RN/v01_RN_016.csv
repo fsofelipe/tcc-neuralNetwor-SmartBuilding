@@ -1,2 +1,0 @@
-Hora,Temperature,Wind_Speed,Wind_Direction,Humidity,Air_Density,Rain_Status,Jardim_PMV,Jardim_Temp,Sala_PMV,Sala_Temp,Mezanino_PMV,Mezanino_Temp,PortaSalaNorte,JanelaSalaNorte,PortaSalaLeste,JanelaSalaSul,JanelaSalaOeste,PortaCozinhaLeste,JanelaCozinhaSul,JanelaMezaninoNorte,JanelaMezaninoSul,JanelaMezaninoOeste
-0.0,16.4,1.9,0.0,74.0,1.18674564357,0.0,-0.842727403624,20.5801530189,-1.19947947659,19.9483078424,-0.669817436029,19.1861073596,0.0,0.0,3.48588824272,0.0,2.17674589157,0.0,0.0,0.0,0.0,4.50769138336
