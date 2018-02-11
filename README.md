@@ -1,6 +1,6 @@
 # Uso de técnicas de aprendizado de máquina e deep learning na otimização de consumo energético e no gerenciamento de conforto térmico de "smart buildings"
 Autor: Felipe da Silva Oliveira <br>
-Orientador: Prof. Ms. Anderson Priebe Ferrugem<br>
+Orientador: Prof. Me. Anderson Priebe Ferrugem<br>
 Coorientador: Prof. Dr. Antonio César Silveira Baptista da Silva<br>
 
 ## Arquivos
