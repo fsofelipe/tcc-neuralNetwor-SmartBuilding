@@ -16445,86 +16445,26 @@
   ExternalInterface,
     PtolemyServer;           !- Name of External Interface
 
-    !- SALA DE ESTAR
+    ExternalInterface:Actuator,
+      JanelaCasalNorte,        !- Name
+      Block1:Zone3_Wall_3_0_0_0_0_0_Win,  !- Actuated Component Unique Name
+      AirFlow Network Window/Door Opening,  !- Actuated Component Type
+      Venting Opening Factor;  !- Actuated Component Control Type
 
-  ExternalInterface:Actuator,
-    PortaSalaNorte,          !- Name
-    Block1:Zone7_Wall_15_0_0_0_0_0_Door,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
+      0;
 
-    0;
+    ExternalInterface:Actuator,
+      PortaCasalOeste,         !- Name
+      Block1:Zone3_Partition_5_0_0_0_0_0_Door,  !- Actuated Component Unique Name
+      AirFlow Network Window/Door Opening,  !- Actuated Component Type
+      Venting Opening Factor;  !- Actuated Component Control Type
 
-  ExternalInterface:Actuator,
-    JanelaSalaNorte,         !- Name
-    Block1:Zone7_Partition_3_0_0_0_0_0_Win,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
+      0;
 
-    0;
+    ExternalInterface:Actuator,
+      JanelaCasalOeste,        !- Name
+      Block1:Zone3_Partition_5_0_0_1_0_1_Win,  !- Actuated Component Unique Name
+      AirFlow Network Window/Door Opening,  !- Actuated Component Type
+      Venting Opening Factor;  !- Actuated Component Control Type
 
-  ExternalInterface:Actuator,
-    PortaSalaLeste,          !- Name
-    Block1:Zone7_Partition_11_0_0_0_0_0_Door,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
-
-  ExternalInterface:Actuator,
-    JanelaSalaSul,           !- Name
-    Block1:Zone7_Wall_5_0_0_0_0_0_Win,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
-
-  ExternalInterface:Actuator,
-    JanelaSalaOeste,         !- Name
-    Block1:Zone7_Wall_4_0_0_0_0_0_Win,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
-    !- BLOCK1:ZONE7 - COZINHA
-
-  ExternalInterface:Actuator,
-    PortaCozinhaLeste,       !- Name
-    Block1:Zone7_Partition_9_0_0_0_0_0_Door,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
-
-  ExternalInterface:Actuator,
-    JanelaCozinhaSul,        !- Name
-    Block1:Zone7_Wall_8_0_0_0_0_0_Win,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
-    !- BLOCK6:ZONE1 - MEZANINO
-
-  ExternalInterface:Actuator,
-    JanelaMezaninoNorte,     !- Name
-    Block6:Zone1_Wall_2_0_6_0_6_0_Win,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
-
-  ExternalInterface:Actuator,
-    JanelaMezaninoSul,       !- Name
-    Block6:Zone1_Wall_4_0_0_0_0_0_Win,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
-
-  ExternalInterface:Actuator,
-    JanelaMezaninoOeste,     !- Name
-    Block6:Zone1_Wall_3_0_0_0_0_0_Win,  !- Actuated Component Unique Name
-    AirFlow Network Window/Door Opening,  !- Actuated Component Type
-    Venting Opening Factor;  !- Actuated Component Control Type
-
-    0;
+      0;

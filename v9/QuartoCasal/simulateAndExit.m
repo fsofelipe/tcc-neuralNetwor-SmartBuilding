@@ -14,7 +14,7 @@ simTimWri = 0;
 simTimRea = 0;
 
 %inputs = [0 0 0 0];
-inputs = [1 1 1 1 1 1 1 1 1 1];
+inputs = [1 1 1];
 %outputs = [0 0 0 0 0 0 0];
 outputs = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0];
 
@@ -35,7 +35,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Loop for simulation time steps.
 simulate = 1;
-tcp = tcpip('localhost', 50013);
+tcp = tcpip('localhost', 50008);
 fopen(tcp);
 
 while (simulate)

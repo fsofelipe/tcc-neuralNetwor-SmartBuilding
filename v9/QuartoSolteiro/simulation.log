@@ -8,7 +8,3 @@
 To get started, type one of these: helpwin, helpdesk, or demo.
 For product information, visit www.mathworks.com.
  
-Matlab received end of simulation flag from BCVTB. Exit simulation.
-[Warning: Objects of 'tcpip' class exist.  Cannot clear this class or any of its
-superclasses.] 
-[> In simulateAndExit (line 106)] 

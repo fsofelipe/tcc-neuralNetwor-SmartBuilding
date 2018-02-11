@@ -8,7 +8,16 @@
 To get started, type one of these: helpwin, helpdesk, or demo.
 For product information, visit www.mathworks.com.
  
-Matlab received end of simulation flag from BCVTB. Exit simulation.
+Error: Attempted to access errmsg(0); index must be a positive integer or logical.
+{Error using simulateAndExit (line 62)
+Attempted to access errmsg(0); index must be a positive integer or logical.
+} 
 [Warning: Objects of 'tcpip' class exist.  Cannot clear this class or any of its
 superclasses.] 
-[> In simulateAndExit (line 106)] 
+Error writing to output stream.
+
+{Error using clear
+Error writing to output stream.
+
+
+} 

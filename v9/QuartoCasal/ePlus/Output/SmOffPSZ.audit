@@ -11,7 +11,7 @@
   Processing Input Data File -- Complete
   Maximum number of Alpha IDF Args=          31
   Maximum number of Numeric IDF Args=          48
-  Number of IDF "Lines"=        1530
+  Number of IDF "Lines"=        1523
   Number of Defaulted Fields=         288
   Number of Fields with Defaults=        4022
   Number of Autosized Fields=          60
@@ -19,16 +19,9 @@
   Number of Autocalculated Fields=          22
   Number of Autocalculatable Fields =         734
  Potential errors in IDF processing:
- Potential "semi-colon" misplacement=0, at about line number=[16456], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTASALANORTE
- Potential "semi-colon" misplacement=0, at about line number=[16464], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASALANORTE
- Potential "semi-colon" misplacement=0, at about line number=[16472], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTASALALESTE
- Potential "semi-colon" misplacement=0, at about line number=[16480], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASALASUL
- Potential "semi-colon" misplacement=0, at about line number=[16488], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELASALAOESTE
- Potential "semi-colon" misplacement=0, at about line number=[16497], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTACOZINHALESTE
- Potential "semi-colon" misplacement=0, at about line number=[16505], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELACOZINHASUL
- Potential "semi-colon" misplacement=0, at about line number=[16514], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAMEZANINONORTE
- Potential "semi-colon" misplacement=0, at about line number=[16522], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAMEZANINOSUL
- Potential "semi-colon" misplacement=0, at about line number=[16530], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELAMEZANINOOESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16454], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELACASALNORTE
+ Potential "semi-colon" misplacement=0, at about line number=[16462], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=PORTACASALOESTE
+ Potential "semi-colon" misplacement=0, at about line number=[16470], Object Type Preceding=EXTERNALINTERFACE:ACTUATOR, Object Name=JANELACASALOESTE
  Getting object=VERSION
  Getting object=HEATBALANCEALGORITHM
  Getting object=TIMESTEP
